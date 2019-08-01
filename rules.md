@@ -94,7 +94,7 @@ This includes fighters, brawlers, paladins, knights, barbarians and other types 
 
 Holy-roller fighters, they have access to Priest spells. Unswerving devotion to their "faith" and if the enemy doesn't convert, they smack the Jesus/Krishna/Cthulhu into them!
 
-A minor thing, but you have to be either Good or Bad (see *Alignment*) to be a Paladin. Unless you can convince the GM with a good and funny reason for an Indifferent Paladin!
+A minor thing, but you have to be either Good or Bad (see [Alignment](#Alignment)) to be a Paladin. Unless you can convince the GM with a good and funny reason for an Indifferent Paladin!
 
 #### Allowed Spells
 
@@ -314,7 +314,7 @@ Stuff wot you wear you keep your insides inside! If you are wearing armor not in
 | Padded          | Half plate  |            |
 
 You can also carry a shield, this will add +1 to you Defence bonus. You cannot use a two handed weapon and shield at the same time. 
-You cannot use a shield with two-handed weapon, or if you are Dual-wielding. Unless your name is Zaphod Beeblebrox. i
+You cannot use a shield with two-handed weapon, or if you are Dual-wielding. Unless your name is Zaphod Beeblebrox. 
 And you had the third arm fitted to help with your ski-boxing.
 
 ## Skill checks
@@ -355,7 +355,7 @@ Combat is quick, don't try resurrecting anyone in that time or building a magic 
 
 *Magicus interruptus*; if some inconsiderate bastard successfully attacks you while you are in the middle of casting a spell, you know, you have just throttled a chicken and spun round widdershins 3 times, but yet to perform the mystic sign of JubJub McGraw, then your spell goes *poof* and fails.
 
-See *Magic* for spells 'n' that for how to cast a spell.
+See [Magic](#Magic) for spells 'n' that for how to cast a spell.
 
 
 ### Move

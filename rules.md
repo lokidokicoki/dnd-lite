@@ -40,7 +40,7 @@ __Stat boosts__
 
 Holy-roller fighters, they have access to Priest spells. Unswerving devotion to their "faith" and if the enemy doesn't convert, they smack the Jesus/Krishna/Cthulhu into them!
 
-A minor thing, but you have to be either Good or Bad (see [Alignment]) to be a Paladin. Unless you can convince the GM with a good and funny reason for an Indifferent Paladin!
+A minor thing, but you have to be either Good or Bad (see *Alignment*) to be a Paladin. Unless you can convince the GM with a good and funny reason for an Indifferent Paladin!
 
 __Allowed Spells__
 

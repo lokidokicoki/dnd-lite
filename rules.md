@@ -23,13 +23,11 @@ Roll your stats, 3d6 six times and assign the result to:
 
 These reflect how much damage you can take. If you lose 50% of your current total in one go, roll 2d6 under your CON to not go unconscious.
 
-Starting Hit points = CON * 2  
-
+Starting Hit points = CON * 2   
 
 ### Base skill bonuses:
 
 Skill bonuses reflect how well you can do a thing. 
-
 
 | Stat value | Skill Bonus |
 | ---------- | ----------- |
@@ -40,14 +38,13 @@ Skill bonuses reflect how well you can do a thing.
 
 ## Classes
 
-
 ### Warrior
 
 This includes fighters, brawlers, paladins, knights, barbarians and other types who like to talk with their fists.
 
 You can use any weapon without penalty, you can wear any armour without penalty.
 
-**Stat bonues **
+__Stat boosts__
 
 - STR +2
 - CON +1
@@ -57,14 +54,11 @@ You can use any weapon without penalty, you can wear any armour without penalty.
 
 Holy-roller fighters, they have access to Priest spells. Unswerving devotion to their “faith”. 
 
-Allowed Spells
-
+__Allowed Spells__
 
 | Level 1 | Level 2 | Level 3 |
 | ------- | ------- | ------- |
 | 4       | 2       | 0       |
-
-
 
 ### Mage
 
@@ -72,18 +66,16 @@ This includes wizards, sorcerers and all those buggers with gitty-goaty beards, 
 
 You cannot use armor of any type. You can use light melee and medium blunt weapons. 
 
-Spells
+__Stat boosts__
 
+- INT +3
+- CON -1
+
+__Allowed Spells__
 
 | Level 1 | Level 2 | Level 3 |
 | ------- | ------- | ------- |
 | 4       | 3       | 2       |
-
-
-INT bonus +3
-
-HP -1 
-
 
 ### Priests
 
@@ -93,15 +85,15 @@ You can wear light or medium armor without penalty.
 
 You can only use blunt melee weapons.
 
-Spells
+__Stat boosts__
 
+- WIS bonus +3
+
+__Allowed Spells__
 
 | Level 1 | Level 2 | Level 3 |
 | ------- | ------- | ------- |
 | 4       | 3       | 2       |
-
-
-WIS bonus +3
 
 
 #### Monk
@@ -110,12 +102,11 @@ You have eschewed weapons and gaudy material things. You can ninja the fuck out 
 
 No armor, only light blunt melee weapons
 
-WIS +1
+__Stat boosts__
 
-STR +1
-
-DEX +1
-
+- WIS +1
+- STR +1
+- DEX +1
 
 ### Ranger
 
@@ -125,18 +116,16 @@ You can wear light or medium armor with no penalty.
 
 You can use all ranged weapons, light and medium edged weapons.
 
-Spells
+__Stat boosts__
 
+- DEX +2
+- WIS +1
+
+__Allowed Spells__
 
 | Level 1 | Level 2 | Level 3 |
 | ------- | ------- | ------- |
 | 4       | 2       | 0       |
-
-
-DEX +2
-
-WIS +1
-
 
 ### Rogue
 
@@ -146,15 +135,14 @@ You can wear light armor with no penalty
 
 You can use all light weapons with no penalty
 
-DEX +2
+__Stat boosts__
 
-CHA +1
-
+- DEX +2 
+- CHA +1
 
 ## Weapons
 
 Split in two broad groups, Ranged and Melee and categorised as Light, Medium or Heavy. If you are trying to use a weapon not in your proficiency list, it is -2 on your attack roll.
-
 
 | Weapon type | Damage |
 | ----------- | ------ |
@@ -162,11 +150,7 @@ Split in two broad groups, Ranged and Melee and categorised as Light, Medium or 
 | Medium      | 2d6    |
 | Heavy       | 3d6    |
 
-
-
-
 ### Ranged
-
 
 | Light           | Medium    | Heavy    |
 | --------------- | --------- | -------- |
@@ -175,12 +159,9 @@ Split in two broad groups, Ranged and Melee and categorised as Light, Medium or 
 | shuriken        | spear     | Arquebus |
 | Pistol crossbow |           |          |
 
-
-
 #### Range penalties
 
 Ranged weapons suffer a penalty if you are trying to hit an enemy too close or too far away. The penalty is added to the enemy’s Defend score
-
 
 |        | Close | Medium | Long | Extreme |
 | ------ | ----- | ------ | ---- | ------- |
@@ -188,15 +169,11 @@ Ranged weapons suffer a penalty if you are trying to hit an enemy too close or t
 | Medium | +1    | +0     | +1   | +2      |
 | Heavy  | +2    | +0     | +0   | +1      |
 
-
-
 ### Melee
 
 These are split in Edged and Blunt
 
-
 #### Edged
-
 
 | Light       | Medium     | Heavy         |
 | ----------- | ---------- | ------------- |
@@ -205,11 +182,7 @@ These are split in Edged and Blunt
 | Hand axe    | Axe        | Naginata      |
 | Short sword |            | Halberd       |
 
-
-
-
 #### Blunt
-
 
 | Light           | Medium       | Heavy      |
 | --------------- | ------------ | ---------- |
@@ -218,12 +191,11 @@ These are split in Edged and Blunt
 | whip            | Sledgehammer |            |
 | Hammer          |              |            |
 
-
-
 ## Armor
 
 Stuff wot you wear you keep your insides inside! If you are wearing armor not in your proficiency list, -2 to your defend score or dodge roll. Armor comes in three types, Light, Medium, and Heavy.
 
+__Defend bonus by Armor type__
 
 | Armor type | Defend bonus |
 | ---------- | ------------ |
@@ -232,7 +204,7 @@ Stuff wot you wear you keep your insides inside! If you are wearing armor not in
 | Medium     | +2           |
 | Heavy      | +3           |
 
-
+__Armor types__
 
 | Light           | Medium      | Heavy      |
 | --------------- | ----------- | ---------- |
@@ -240,10 +212,7 @@ Stuff wot you wear you keep your insides inside! If you are wearing armor not in
 | Studded leather | Scalemail   | Chain mail |
 | Padded          | Half plate  |            |
 
-
 You can also carry a shield, this will add +1 to you Defend bonus. You cannot use a two handed weapon and shield at the same time.
-
-
 
 ## Combat
 
@@ -266,29 +235,23 @@ If you rolled a double 6, ultra yay! That’s a critical hit, you get one extra 
 
 If you hit them, then roll the number of d6 your weapon type has for damage and proudly announce this to the group.
 
-
 ### Cast a spell
 
 Some spells are instant, some take time. For example Magic Missile, takes one action (i.e. instant).
 
 Spell targets can be in line of sight, touch or area effect, check the manual. Roll 2d6 + INT bonus to see if you successfully cast the spell. +8 is a success. Double 6 has increased effectiveness, Double 1 can lead to unconsciouness
 
-
 ### Move
 
 Moving in combat allows you to get into or out of range.
-
 
 ### Use an item
 
 Like open a door, pull a lever etc
 
-
 ### Dodge
 
 You are focusing on dodging incoming attacks this turn. Your defend score increases by your DEX bonus.
-
-
 
 ## Skill checks
 

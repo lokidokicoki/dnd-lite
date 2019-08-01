@@ -5,15 +5,15 @@
 1. Choose a name.
 2. Choose a race.
 3. Choose a gender.
-4. Character age is 25 + 2d6.
+4. Character age is 25 + 2D6.
 5. Roll your stats.
 6. Choose a class.
 7. Update your stats and fill out your skill bonuses. 
 8. Choose an alignment.
 
-### Stats:
+### Base stats:
 
-Roll your stats, 3d6 six times and assign the result to:
+Roll your stats, 3D6 seven times, discard the lowest score, and assign the result to:
 
 - Strength (STR) - used for hitting people
 - Intelligence (INT) - casting spells, being smort
@@ -24,7 +24,7 @@ Roll your stats, 3d6 six times and assign the result to:
 
 ### Hit points:
 
-These reflect how much damage you can take. If you lose 50% of your current total in one go, roll 2d6 under your CON to not go unconscious.
+These reflect how much damage you can take. If you lose 50% of your current total in one go, roll 2D6 under your CON to not go unconscious.
 
 Starting Hit points = CON * 2   
 
@@ -167,9 +167,9 @@ Split in two broad groups, Ranged and Melee and categorised as Light, Medium or 
 
 | Weapon type | Damage |
 | ----------- | ------ |
-| Light       | 1d6    |
-| Medium      | 2d6    |
-| Heavy       | 3d6    |
+| Light       | 1D6    |
+| Medium      | 2D6    |
+| Heavy       | 3D6    |
 
 ### Ranged
 
@@ -239,7 +239,7 @@ You can also carry a shield, this will add +1 to you Defend bonus. You cannot us
 
 How to make friends by stabbing them…
 
-Roll 2d6 + your DEX bonus for initiative, this determines turn order for the combat.
+Roll 2D6 + your DEX bonus for initiative, this determines turn order for the combat.
 
 On your turn, you can do one of the following: attack, cast a spell, move, use an item (like a potion), or dodge.
 
@@ -248,19 +248,19 @@ On your turn, you can do one of the following: attack, cast a spell, move, use a
 
 Opponents may be at close, medium, or long range; this can make it harder to hit them. The cheeky bastards may also be in cover; full, partial or none at all. Again, this can make them harder to hit. Not only that, but sometimes they are running! Guess what? Yep, that makes them harder to hit.
 
-Choose an opponent, roll 2d6 and add either your STR bonus for melee or DEX bonus for ranged weapons. If the result is 8 or more, adjusted for the enemy’s armor, cover and movement, then you hit them, yay! 
+Choose an opponent, roll 2D6 and add either your STR bonus for melee or DEX bonus for ranged weapons. If the result is 8 or more, adjusted for the enemy’s armor, cover and movement, then you hit them, yay! 
 
-If you rolled a double 1, fuck! That’s a critical miss, roll 2d6 and get under your DEX to hold onto the weapon. 
+If you rolled a double 1, fuck! That’s a critical miss, roll 2D6 and get under your DEX to hold onto the weapon. 
 
-If you rolled a double 6, ultra yay! That’s a critical hit, you get one extra d6 of damage to dish out. 
+If you rolled a double 6, ultra yay! That’s a critical hit, you get one extra D6 of damage to dish out. 
 
-If you hit them, then roll the number of d6 your weapon type has for damage and proudly announce this to the group.
+If you hit them, then roll the number of D6 your weapon type has for damage and proudly announce this to the group.
 
 ### Cast a spell
 
 Some spells are instant, some take time. For example Magic Missile, takes one action (i.e. instant).
 
-Spell targets can be in line of sight, touch or area effect, check the manual. Roll 2d6 + INT bonus to see if you successfully cast the spell. +8 is a success. Double 6 has increased effectiveness, Double 1 can lead to unconsciouness
+Spell targets can be in line of sight, touch or area effect, check the manual. Roll 2D6 + INT bonus to see if you successfully cast the spell. +8 is a success. Double 6 has increased effectiveness, Double 1 can lead to unconsciouness
 
 ### Move
 
@@ -276,11 +276,11 @@ You are focusing on dodging incoming attacks this turn. Your defend score increa
 
 ## Skill checks
 
-All skill checks follow the same format; roll 2d6 and add the appropriate skill bonus. You are aiming to get 8 or more on a roll including your bonus. 
+All skill checks follow the same format; roll 2D6 and add the appropriate skill bonus. You are aiming to get 8 or more on a roll including your bonus. 
 
-For example, you want to hit someone, roll 2d6 and add your STR skill bonus. Another example, If you want to persuade someone to do something, roll 2d6, add you CHA skill bonus.
+For example, you want to hit someone, roll 2D6 and add your STR skill bonus. Another example, If you want to persuade someone to do something, roll 2D6, add you CHA skill bonus.
 
-If you roll a double 1, that is a critical fail. Roll 2d6 under the base stat to not get a hilarious fuck up.
+If you roll a double 1, that is a critical fail. Roll 2D6 under the base stat to not get a hilarious fuck up.
 
 If you roll a double 6, that is a critical success! You have successed the game fun and get extra benefits.
 

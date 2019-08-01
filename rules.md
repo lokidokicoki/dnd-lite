@@ -28,7 +28,10 @@ Roll your stats, 3D6 seven times, discard the lowest score, and assign the resul
 
 This includes fighters, brawlers, paladins, knights, barbarians and other types who like to talk with their fists.
 
-You can use any weapon without penalty, you can wear any armour without penalty.
+__Kickers__
+
+- You can use any weapon without penalty.
+- You can wear any armour without penalty.
 
 __Stat boosts__
 
@@ -50,9 +53,13 @@ __Allowed Spells__
 
 ### Mage
 
-This includes wizards, sorcerers and all those buggers with gitty-goaty beards, an interest dusty books and wiggling fingers…. Which may or may not be attached. You main attack and defensive is your ability to cast spells.
+This includes wizards, sorcerers and all those buggers with gitty-goaty beards, an interest dusty books and wiggling fingers…. Which may or may not be attached. 
+Your main Attack and Defence is your ability to cast spells.
 
-You cannot use armor of any type. You can use light melee and medium blunt weapons. 
+__Kickers__
+
+- You cannot use armor of any type.
+- You can use light melee and medium blunt weapons. 
 
 __Stat boosts__
 
@@ -69,9 +76,10 @@ __Allowed Spells__
 
 Includes clerics, druids and monks. You know the type, happy in a pulpit or tree circle. The power of Christ/FSM/Buddha compels you! You are powered by prayer.
 
-You can wear light or medium armor without penalty.
+__Kickers__
 
-You can only use blunt melee weapons.
+- You can wear light or medium armor without penalty.
+- You can only use blunt melee weapons.
 
 __Stat boosts__
 
@@ -83,14 +91,22 @@ __Allowed Spells__
 | ------- | ------- | ------- |
 | 4       | 3       | 2       |
 
-
 #### Monk
 
 You have eschewed weapons and gaudy material things. You can ninja the fuck out of things.
 
 Through lots of training; you know the sort, waxing cars, carrying red hot pots, etc, your body is now a registered medium weapon. This means you can't wield weapons of any sort, but boy, do you pack a punch!
 
+__Kickers__
+
+Use these instead of Priest kickers
+
+- You can wear light armor without penalty.
+- You cannot wield any weapons
+
 __Stat boosts__
+
+Use these instead of Priest boosts
 
 - WIS +1
 - STR +1
@@ -100,9 +116,10 @@ __Stat boosts__
 
 This includes woodsmen, stalkers. Those worrying folk who actually like going in the woods for fun! Rangers can also cast a small number of spells
 
-You can wear light or medium armor with no penalty.
+__Kickers__
 
-You can use all ranged weapons, light and medium edged weapons.
+- You can wear light or medium armor with no penalty.
+- You can use all ranged weapons, light and medium edged weapons.
 
 __Stat boosts__
 
@@ -119,9 +136,10 @@ __Allowed Spells__
 
 This includes thieves, bards, scamps and ne’er-do-wells. That bloke in the pub that when you shake his hand you count how many fingers you have left.
 
-You can wear light armor with no penalty
+__Kickers__
 
-You can use all light weapons with no penalty
+- You can wear light armor with no penalty
+- You can use all light weapons with no penalty
 
 __Stat boosts__
 
@@ -165,7 +183,7 @@ You help old ladies under buses and charity boxes, well, that's just free money 
 
 ## Weapons
 
-Split in two broad groups, Ranged and Melee and categorised as Light, Medium or Heavy. If you are trying to use a weapon not in your proficiency list, it is -2 on your attack roll.
+Split in two broad groups, Ranged and Melee and categorised as Light, Medium or Heavy. If you are trying to use a weapon not in your proficiency list, it is -2 on your Attack roll.
 
 | Weapon type | Damage |
 | ----------- | ------ |
@@ -184,7 +202,7 @@ Split in two broad groups, Ranged and Melee and categorised as Light, Medium or 
 
 #### Range penalties
 
-Ranged weapons suffer a penalty if you are trying to hit an enemy too close or too far away. The penalty is added to the enemy’s Defend score
+Ranged weapons suffer a penalty if you are trying to hit an enemy too close or too far away. The penalty is added to the enemy’s Defence score
 
 |        | Close | Medium | Long | Extreme |
 | ------ | ----- | ------ | ---- | ------- |
@@ -216,16 +234,16 @@ These are split in Edged and Blunt
 
 ## Armor
 
-Stuff wot you wear you keep your insides inside! If you are wearing armor not in your proficiency list, -2 to your defend score or dodge roll. Armor comes in three types, Light, Medium, and Heavy.
+Stuff wot you wear you keep your insides inside! If you are wearing armor not in your proficiency list, -2 to your Defence score or dodge roll. Armor comes in three types, Light, Medium, and Heavy.
 
-__Defend bonus by Armor type__
+__Defence bonus by Armor type__
 
-| Armor type | Defend bonus |
-| ---------- | ------------ |
-| No armor   | +0           |
-| Light      | +1           |
-| Medium     | +2           |
-| Heavy      | +3           |
+| Armor type | Defence bonus |
+| ---------- | ------------- |
+| No armor   | +0            |
+| Light      | +1            |
+| Medium     | +2            |
+| Heavy      | +3            |
 
 __Armor types__
 
@@ -235,7 +253,7 @@ __Armor types__
 | Studded leather | Scalemail   | Chain mail |
 | Padded          | Half plate  |            |
 
-You can also carry a shield, this will add +1 to you Defend bonus. You cannot use a two handed weapon and shield at the same time.
+You can also carry a shield, this will add +1 to you Defence bonus. You cannot use a two handed weapon and shield at the same time.
 
 ## Combat
 
@@ -274,7 +292,7 @@ Like open a door, pull a lever etc
 
 ### Dodge
 
-You are focusing on dodging incoming attacks this turn. Your defend score increases by your DEX bonus.
+You are focusing on dodging incoming attacks this turn. Your Defence score increases by your DEX bonus.
 
 ## Skill checks
 

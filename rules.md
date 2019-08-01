@@ -262,7 +262,9 @@ __Armor types__
 | Studded leather | Scalemail   | Chain mail |
 | Padded          | Half plate  |            |
 
-You can also carry a shield, this will add +1 to you Defence bonus. You cannot use a two handed weapon and shield at the same time.
+You can also carry a shield, this will add +1 to you Defence bonus. You cannot use a two handed weapon and shield at the same time. 
+You cannot use a shield with two-handed weapon, or if you are Dual-wielding. Unless your name is Zaphod Beeblebrox. i
+And you had the third arm fitted to help with your ski-boxing.
 
 ## Combat
 

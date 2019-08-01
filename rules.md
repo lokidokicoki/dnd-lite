@@ -31,11 +31,12 @@ Starting Hit points = CON * 2
 Skill bonuses reflect how well you can do a thing. 
 
 
-| Stat value |  | Skill Bonus
-    | 0 - 8  | +0  | 
-    | 9 - 11  | +1  | 
-    | 12 - 14  | +2  |  
-    | 15 - 18  | +3  | 
+| Stat value | Skill Bonus |
+| ---------- | ----------- |
+| 0 - 8      | +0          |
+| 9 - 11     | +1          |
+| 12 - 14    | +2          |
+| 15 - 18    | +3          |
 
 ## Classes
 
@@ -46,20 +47,22 @@ This includes fighters, brawlers, paladins, knights, barbarians and other types 
 
 You can use any weapon without penalty, you can wear any armour without penalty.
 
-STR +2
+**Stat bonues **
 
-Hit +1
+- STR +2
+- CON +1
 
 
 #### Paladin
 
 Holy-roller fighters, they have access to Priest spells. Unswerving devotion to their “faith”. 
 
-Spells
+Allowed Spells
 
 
-    | Level 1  | Level 2  | Level 3  | 
-    | 4  | 2  | 0  | 
+| Level 1 | Level 2 | Level 3 |
+| ------- | ------- | ------- |
+| 4       | 2       | 0       |
 
 
 
@@ -72,8 +75,9 @@ You cannot use armor of any type. You can use light melee and medium blunt weapo
 Spells
 
 
-    | Level 1  | Level 2  | Level 3  | 
-    | 4  | 3  | 2  | 
+| Level 1 | Level 2 | Level 3 |
+| ------- | ------- | ------- |
+| 4       | 3       | 2       |
 
 
 INT bonus +3
@@ -92,8 +96,9 @@ You can only use blunt melee weapons.
 Spells
 
 
-    | Level 1  | Level 2  | Level 3  | 
-    | 4  | 3  | 2  | 
+| Level 1 | Level 2 | Level 3 |
+| ------- | ------- | ------- |
+| 4       | 3       | 2       |
 
 
 WIS bonus +3
@@ -123,8 +128,9 @@ You can use all ranged weapons, light and medium edged weapons.
 Spells
 
 
-    | Level 1  | Level 2  | Level 3  | 
-    | 4  | 2  | 0  | 
+| Level 1 | Level 2 | Level 3 |
+| ------- | ------- | ------- |
+| 4       | 2       | 0       |
 
 
 DEX +2
@@ -150,10 +156,11 @@ CHA +1
 Split in two broad groups, Ranged and Melee and categorised as Light, Medium or Heavy. If you are trying to use a weapon not in your proficiency list, it is -2 on your attack roll.
 
 
-    | Weapon type  | Damage  | 
-    | Light  | 1d6  | 
-    | Medium  | 2d6  | 
-    | Heavy  | 3d6  | 
+| Weapon type | Damage |
+| ----------- | ------ |
+| Light       | 1d6    |
+| Medium      | 2d6    |
+| Heavy       | 3d6    |
 
 
 
@@ -161,11 +168,12 @@ Split in two broad groups, Ranged and Melee and categorised as Light, Medium or 
 ### Ranged
 
 
-    | Light  | Medium  | Heavy  | 
-    | sling  | Short bow  | Longbow  | 
-    | Throwing knives  | crossbow  | Arbalest  | 
-    | shuriken  | spear  | Arquebus  | 
-    | Pistol crossbow  |   |   | 
+| Light           | Medium    | Heavy    |
+| --------------- | --------- | -------- |
+| sling           | Short bow | Longbow  |
+| Throwing knives | crossbow  | Arbalest |
+| shuriken        | spear     | Arquebus |
+| Pistol crossbow |           |          |
 
 
 
@@ -174,10 +182,11 @@ Split in two broad groups, Ranged and Melee and categorised as Light, Medium or 
 Ranged weapons suffer a penalty if you are trying to hit an enemy too close or too far away. The penalty is added to the enemy’s Defend score
 
 
-    |   | Close  | Medium  | Long  | Extreme  | 
-    | Light  | +0  | +1  | +2  | +3  | 
-    | Medium  | +1  | +0  | +1  | +2  | 
-    | Heavy  | +2  | +0  | +0  | +1  | 
+|        | Close | Medium | Long | Extreme |
+| ------ | ----- | ------ | ---- | ------- |
+| Light  | +0    | +1     | +2   | +3      |
+| Medium | +1    | +0     | +1   | +2      |
+| Heavy  | +2    | +0     | +0   | +1      |
 
 
 
@@ -189,11 +198,12 @@ These are split in Edged and Blunt
 #### Edged
 
 
-    | Light  | Medium  | Heavy  | 
-    | Dagger  | Long sword  | Bastard sword  | 
-    | Rapier  | Scimitar  | Battle Axe  | 
-    | Hand axe  | Axe  | Naginata  | 
-    | Short sword  |   | Halberd  | 
+| Light       | Medium     | Heavy         |
+| ----------- | ---------- | ------------- |
+| Dagger      | Long sword | Bastard sword |
+| Rapier      | Scimitar   | Battle Axe    |
+| Hand axe    | Axe        | Naginata      |
+| Short sword |            | Halberd       |
 
 
 
@@ -201,11 +211,12 @@ These are split in Edged and Blunt
 #### Blunt
 
 
-    | Light  | Medium  | Heavy  | 
-    | Knuckle dusters  | Staves  | War hammer  | 
-    | club  | Mace  | Flail  | 
-    | whip  | Sledgehammer  |   | 
-    | Hammer  |   |   | 
+| Light           | Medium       | Heavy      |
+| --------------- | ------------ | ---------- |
+| Knuckle dusters | Staves       | War hammer |
+| club            | Mace         | Flail      |
+| whip            | Sledgehammer |            |
+| Hammer          |              |            |
 
 
 
@@ -214,18 +225,20 @@ These are split in Edged and Blunt
 Stuff wot you wear you keep your insides inside! If you are wearing armor not in your proficiency list, -2 to your defend score or dodge roll. Armor comes in three types, Light, Medium, and Heavy.
 
 
-    | Armor type  | Defend bonus  | 
-    | No armor  | +0  | 
-    | Light  | +1  | 
-    | Medium  | +2  | 
-    | Heavy  | +3  | 
+| Armor type | Defend bonus |
+| ---------- | ------------ |
+| No armor   | +0           |
+| Light      | +1           |
+| Medium     | +2           |
+| Heavy      | +3           |
 
 
 
-    | Light  | Medium  | Heavy  | 
-    | Leather  | Chain shirt  | Full plate  | 
-    | Studded leather  | Scalemail  | Chain mail  | 
-    | Padded  | Half plate  |   | 
+| Light           | Medium      | Heavy      |
+| --------------- | ----------- | ---------- |
+| Leather         | Chain shirt | Full plate |
+| Studded leather | Scalemail   | Chain mail |
+| Padded          | Half plate  |            |
 
 
 You can also carry a shield, this will add +1 to you Defend bonus. You cannot use a two handed weapon and shield at the same time.
@@ -275,8 +288,6 @@ Like open a door, pull a lever etc
 
 You are focusing on dodging incoming attacks this turn. Your defend score increases by your DEX bonus.
 
-
-## 
 
 
 ## Skill checks

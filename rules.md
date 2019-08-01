@@ -1,6 +1,6 @@
 # D&D Lite Rules
 
-## Character creation:
+## Character creation
 
 1. Choose a name.
 2. Choose a race.
@@ -11,7 +11,7 @@
 7. Update your stats and fill out your skill bonuses. 
 8. Choose an alignment.
 
-### Base stats:
+## Base stats
 
 Roll your stats, 3D6 seven times, discard the lowest score, and assign the result to:
 
@@ -21,12 +21,6 @@ Roll your stats, 3D6 seven times, discard the lowest score, and assign the resul
 - Dexterity (DEX) - juggling, shooting bows, fiddly stuffs
 - Charisma (CHA )- oh hello ;)
 - Wisdom (WIS) - how well you know not to piss on an electric fence
-
-### Hit points:
-
-These reflect how much damage you can take. If you lose 50% of your current total in one go, roll 2D6 under your CON to not go unconscious.
-
-Starting Hit points = CON * 2   
 
 ## Classes
 
@@ -144,6 +138,12 @@ Skill bonuses reflect how well you can do a thing. These are based on your stats
 | 15 - 18    | +3          |
 
 For example, we have a fighter, Steve the Mighty Clencher, with a base strength of 14. A fighter is a member of the Warrior class, this gives us a Strength bonus of +1, therefore our Strength is now 15. Simple maffs, innit. So, using the table above, our Strength Skill bonus is +3
+
+## Hit points
+
+These reflect how much damage you can take. If you lose 50% of your current total in one go, roll 2D6 under your CON to not go unconscious.
+
+Starting Hit points = CON * 2   
 
 ## Alignment
 

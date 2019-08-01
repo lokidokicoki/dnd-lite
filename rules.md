@@ -266,6 +266,18 @@ You can also carry a shield, this will add +1 to you Defence bonus. You cannot u
 You cannot use a shield with two-handed weapon, or if you are Dual-wielding. Unless your name is Zaphod Beeblebrox. i
 And you had the third arm fitted to help with your ski-boxing.
 
+## Skill checks
+
+All skill checks follow the same format; roll 2D6 and add the appropriate skill bonus. You are aiming to get 8 or more on a roll including your bonus. 
+
+For example, you want to hit someone, roll 2D6 and add your STR skill bonus. Another example, If you want to persuade someone to do something, roll 2D6, add you CHA skill bonus.
+
+If you roll a double 1, that is a critical fail. Roll 2D6 under the base stat to not get a hilarious fuck up.
+
+If you roll a double 6, that is a critical success! You have successed the game fun and get extra benefits.
+
+What skills you have are up to you, if it is appropriate to your character. When you want to use a skill, check with the GM if they reckon it would be suitable.
+
 ## Combat
 
 How to make friends by stabbing them…
@@ -273,7 +285,6 @@ How to make friends by stabbing them…
 Roll 2D6 + your DEX bonus for initiative, this determines turn order for the combat.
 
 On your turn, you can do one of the following: attack, cast a spell, move, use an item (like a potion), or dodge.
-
 
 ### Attack
 
@@ -289,9 +300,12 @@ If you hit them, roll the number of D6 your weapon type has for damage and proud
 
 ### Cast a spell
 
-Some spells are instant, some take time. For example Magic Missile, takes one action (i.e. instant).
+Combat is quick, don't try resurrecting anyone in that time or building a magic house. Enemies have a habit of shooting the pointy hat. If they do, you could suffer from *Magicus interruptus*, most embarrassing...
 
-Spell targets can be in line of sight, touch or area effect, check the manual. Roll 2D6 + INT bonus to see if you successfully cast the spell. +8 is a success. Double 6 has increased effectiveness, Double 1 can lead to unconsciouness
+*Magicus interruptus*; if some inconsiderate bastard successfully attacks you while you are in the middle of casting a spell, you know, you have just throttled a chicken and spun round widdershins 3 times, but yet to perform the mystic sign of JubJub McGraw, then your spell goes *poof* and fails.
+
+See *Magic* for spells 'n' that for how to cast a spell.
+
 
 ### Move
 
@@ -305,14 +319,15 @@ Like open a door, pull a lever etc
 
 You are focusing on dodging incoming attacks this turn. Your Defence score increases by your DEX bonus.
 
-## Skill checks
+## Magic
 
-All skill checks follow the same format; roll 2D6 and add the appropriate skill bonus. You are aiming to get 8 or more on a roll including your bonus. 
+Some spells are instant, some take time. For example, good old Magic Missile takes one action, i.e. instant (according to the Player Handbook).
 
-For example, you want to hit someone, roll 2D6 and add your STR skill bonus. Another example, If you want to persuade someone to do something, roll 2D6, add you CHA skill bonus.
+Spell targets can be in line of sight, touch or area effect. Check the manual if you ain't sure. 
 
-If you roll a double 1, that is a critical fail. Roll 2D6 under the base stat to not get a hilarious fuck up.
+To cast a spell, roll 2D6 and add your INT bonus to see if you successfully cast the spell. 
 
-If you roll a double 6, that is a critical success! You have successed the game fun and get extra benefits.
+If you rolled a double 1, fuck! That's a critical miss, roll 2D6 under your INT to check your brain didn't melt out of your ears. Or worse.
 
-What skills you have are up to you, if it is appropriate to your character.
+If you rolled a double 6, yay! That's a critical success, you get one extra dice worth of effect, if applicable. if not, I'm sure the GM will come up with something horrible/hilarious.
+

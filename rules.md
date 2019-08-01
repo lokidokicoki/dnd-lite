@@ -1,60 +1,29 @@
-<!----- Conversion time: 2.244 seconds.
-
-
-Using this Markdown file:
-
-1. Cut and paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β17
-* Wed Jul 31 2019 17:30:10 GMT-0700 (PDT)
-* Source doc: https://docs.google.com/open?id=140bVovkUWPLZcXqhHq2q6JiLRxdiqzxQhzbYxeztejg
------>
-
-
-
 # D&D Lite Rules
-
 
 ## Character creation:
 
-Choose a name.
-
-Choose a race.
-
-Choose a gender.
-
-Choose a class.
-
-Character age is 25 + 2d6.
-
+1. Choose a name.
+2. Choose a race.
+3. Choose a gender.
+4. Choose a class.
+5. Character age is 25 + 2d6.
 
 ### Stats:
 
 Roll your stats, 3d6 six times and assign the result to:
 
-Strength (STR) - used for hitting people
-
-Intelligence (INT) - casting spells, being smort
-
-Constitution (CON) - how long you can go for
-
-Dexterity (DEX) - juggling, shooting bows, fiddly stuffs
-
-Charisma (CHA )- oh hello ;)
-
-Wisdom (WIS) - how well you know not to piss on an electric fence
-
+- Strength (STR) - used for hitting people
+- Intelligence (INT) - casting spells, being smort
+- Constitution (CON) - how long you can go for
+- Dexterity (DEX) - juggling, shooting bows, fiddly stuffs
+- Charisma (CHA )- oh hello ;)
+- Wisdom (WIS) - how well you know not to piss on an electric fence
 
 ### Hit points:
 
 These reflect how much damage you can take. If you lose 50% of your current total in one go, roll 2d6 under your CON to not go unconscious.
 
-Starting Hit points - constitution * 2  
+Starting Hit points = CON * 2  
 
 
 ### Base skill bonuses:
@@ -62,40 +31,11 @@ Starting Hit points - constitution * 2
 Skill bonuses reflect how well you can do a thing. 
 
 
-<table>
-  <tr>
-   <td><strong>Stat value</strong>
-   </td>
-   <td><strong>Skill Bonus</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>0 - 8
-   </td>
-   <td>+0
-   </td>
-  </tr>
-  <tr>
-   <td>9 - 11
-   </td>
-   <td>+1
-   </td>
-  </tr>
-  <tr>
-   <td>12 - 14
-   </td>
-   <td>+2
-   </td>
-  </tr>
-  <tr>
-   <td>15 - 18
-   </td>
-   <td>+3
-   </td>
-  </tr>
-</table>
-
-
+| Stat value |  | Skill Bonus
+    | 0 - 8  | +0  | 
+    | 9 - 11  | +1  | 
+    | 12 - 14  | +2  |  
+    | 15 - 18  | +3  | 
 
 ## Classes
 
@@ -106,9 +46,9 @@ This includes fighters, brawlers, paladins, knights, barbarians and other types 
 
 You can use any weapon without penalty, you can wear any armour without penalty.
 
-STR bonus +2
+STR +2
 
-Hit points +1
+Hit +1
 
 
 #### Paladin
@@ -118,24 +58,8 @@ Holy-roller fighters, they have access to Priest spells. Unswerving devotion to 
 Spells
 
 
-<table>
-  <tr>
-   <td>Level 1
-   </td>
-   <td>Level 2
-   </td>
-   <td>Level 3
-   </td>
-  </tr>
-  <tr>
-   <td>4
-   </td>
-   <td>2
-   </td>
-   <td>0
-   </td>
-  </tr>
-</table>
+    | Level 1  | Level 2  | Level 3  | 
+    | 4  | 2  | 0  | 
 
 
 
@@ -148,24 +72,8 @@ You cannot use armor of any type. You can use light melee and medium blunt weapo
 Spells
 
 
-<table>
-  <tr>
-   <td>Level 1
-   </td>
-   <td>Level 2
-   </td>
-   <td>Level 3
-   </td>
-  </tr>
-  <tr>
-   <td>4
-   </td>
-   <td>3
-   </td>
-   <td>2
-   </td>
-  </tr>
-</table>
+    | Level 1  | Level 2  | Level 3  | 
+    | 4  | 3  | 2  | 
 
 
 INT bonus +3
@@ -184,24 +92,8 @@ You can only use blunt melee weapons.
 Spells
 
 
-<table>
-  <tr>
-   <td>Level 1
-   </td>
-   <td>Level 2
-   </td>
-   <td>Level 3
-   </td>
-  </tr>
-  <tr>
-   <td>4
-   </td>
-   <td>3
-   </td>
-   <td>2
-   </td>
-  </tr>
-</table>
+    | Level 1  | Level 2  | Level 3  | 
+    | 4  | 3  | 2  | 
 
 
 WIS bonus +3
@@ -231,24 +123,8 @@ You can use all ranged weapons, light and medium edged weapons.
 Spells
 
 
-<table>
-  <tr>
-   <td>Level 1
-   </td>
-   <td>Level 2
-   </td>
-   <td>Level 3
-   </td>
-  </tr>
-  <tr>
-   <td>4
-   </td>
-   <td>2
-   </td>
-   <td>0
-   </td>
-  </tr>
-</table>
+    | Level 1  | Level 2  | Level 3  | 
+    | 4  | 2  | 0  | 
 
 
 DEX +2
@@ -274,83 +150,22 @@ CHA +1
 Split in two broad groups, Ranged and Melee and categorised as Light, Medium or Heavy. If you are trying to use a weapon not in your proficiency list, it is -2 on your attack roll.
 
 
-<table>
-  <tr>
-   <td><strong>Weapon type</strong>
-   </td>
-   <td><strong>Damage</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Light
-   </td>
-   <td>1d6
-   </td>
-  </tr>
-  <tr>
-   <td>Medium
-   </td>
-   <td>2d6
-   </td>
-  </tr>
-  <tr>
-   <td>Heavy
-   </td>
-   <td>3d6
-   </td>
-  </tr>
-</table>
+    | Weapon type  | Damage  | 
+    | Light  | 1d6  | 
+    | Medium  | 2d6  | 
+    | Heavy  | 3d6  | 
 
 
-
-### 
 
 
 ### Ranged
 
 
-<table>
-  <tr>
-   <td><strong>Light</strong>
-   </td>
-   <td><strong>Medium</strong>
-   </td>
-   <td><strong>Heavy</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>sling
-   </td>
-   <td>Short bow
-   </td>
-   <td>Longbow
-   </td>
-  </tr>
-  <tr>
-   <td>Throwing knives
-   </td>
-   <td>crossbow
-   </td>
-   <td>Arbalest
-   </td>
-  </tr>
-  <tr>
-   <td>shuriken
-   </td>
-   <td>spear
-   </td>
-   <td>Arquebus
-   </td>
-  </tr>
-  <tr>
-   <td>Pistol crossbow
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
+    | Light  | Medium  | Heavy  | 
+    | sling  | Short bow  | Longbow  | 
+    | Throwing knives  | crossbow  | Arbalest  | 
+    | shuriken  | spear  | Arquebus  | 
+    | Pistol crossbow  |   |   | 
 
 
 
@@ -359,56 +174,10 @@ Split in two broad groups, Ranged and Melee and categorised as Light, Medium or 
 Ranged weapons suffer a penalty if you are trying to hit an enemy too close or too far away. The penalty is added to the enemy’s Defend score
 
 
-<table>
-  <tr>
-   <td>
-   </td>
-   <td><strong>Close</strong>
-   </td>
-   <td><strong>Medium</strong>
-   </td>
-   <td><strong>Long</strong>
-   </td>
-   <td><strong>Extreme</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Light</strong>
-   </td>
-   <td>+0
-   </td>
-   <td>+1
-   </td>
-   <td>+2
-   </td>
-   <td>+3
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Medium</strong>
-   </td>
-   <td>+1
-   </td>
-   <td>+0
-   </td>
-   <td>+1
-   </td>
-   <td>+2
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Heavy</strong>
-   </td>
-   <td>+2
-   </td>
-   <td>+0
-   </td>
-   <td>+0
-   </td>
-   <td>+1
-   </td>
-  </tr>
-</table>
+    |   | Close  | Medium  | Long  | Extreme  | 
+    | Light  | +0  | +1  | +2  | +3  | 
+    | Medium  | +1  | +0  | +1  | +2  | 
+    | Heavy  | +2  | +0  | +0  | +1  | 
 
 
 
@@ -420,99 +189,23 @@ These are split in Edged and Blunt
 #### Edged
 
 
-<table>
-  <tr>
-   <td><strong>Light</strong>
-   </td>
-   <td><strong>Medium</strong>
-   </td>
-   <td><strong>Heavy</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Dagger
-   </td>
-   <td>Long sword
-   </td>
-   <td>Bastard sword
-   </td>
-  </tr>
-  <tr>
-   <td>Rapier
-   </td>
-   <td>Scimitar
-   </td>
-   <td>Battle Axe
-   </td>
-  </tr>
-  <tr>
-   <td>Hand axe
-   </td>
-   <td>Axe
-   </td>
-   <td>Naginata
-   </td>
-  </tr>
-  <tr>
-   <td>Short sword
-   </td>
-   <td>
-   </td>
-   <td>Halberd
-   </td>
-  </tr>
-</table>
+    | Light  | Medium  | Heavy  | 
+    | Dagger  | Long sword  | Bastard sword  | 
+    | Rapier  | Scimitar  | Battle Axe  | 
+    | Hand axe  | Axe  | Naginata  | 
+    | Short sword  |   | Halberd  | 
 
 
-
-#### 
 
 
 #### Blunt
 
 
-<table>
-  <tr>
-   <td><strong>Light</strong>
-   </td>
-   <td><strong>Medium</strong>
-   </td>
-   <td><strong>Heavy</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Knuckle dusters
-   </td>
-   <td>Staves
-   </td>
-   <td>War hammer
-   </td>
-  </tr>
-  <tr>
-   <td>club
-   </td>
-   <td>Mace
-   </td>
-   <td>Flail
-   </td>
-  </tr>
-  <tr>
-   <td>whip
-   </td>
-   <td>Sledgehammer
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Hammer
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
+    | Light  | Medium  | Heavy  | 
+    | Knuckle dusters  | Staves  | War hammer  | 
+    | club  | Mace  | Flail  | 
+    | whip  | Sledgehammer  |   | 
+    | Hammer  |   |   | 
 
 
 
@@ -521,88 +214,29 @@ These are split in Edged and Blunt
 Stuff wot you wear you keep your insides inside! If you are wearing armor not in your proficiency list, -2 to your defend score or dodge roll. Armor comes in three types, Light, Medium, and Heavy.
 
 
-<table>
-  <tr>
-   <td><strong>Armor type</strong>
-   </td>
-   <td><strong>Defend bonus</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>No armor
-   </td>
-   <td>+0
-   </td>
-  </tr>
-  <tr>
-   <td>Light
-   </td>
-   <td>+1
-   </td>
-  </tr>
-  <tr>
-   <td>Medium
-   </td>
-   <td>+2
-   </td>
-  </tr>
-  <tr>
-   <td>Heavy
-   </td>
-   <td>+3
-   </td>
-  </tr>
-</table>
+    | Armor type  | Defend bonus  | 
+    | No armor  | +0  | 
+    | Light  | +1  | 
+    | Medium  | +2  | 
+    | Heavy  | +3  | 
 
 
 
-<table>
-  <tr>
-   <td><strong>Light</strong>
-   </td>
-   <td><strong>Medium</strong>
-   </td>
-   <td><strong>Heavy</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Leather
-   </td>
-   <td>Chain shirt
-   </td>
-   <td>Full plate
-   </td>
-  </tr>
-  <tr>
-   <td>Studded leather
-   </td>
-   <td>Scalemail
-   </td>
-   <td>Chain mail
-   </td>
-  </tr>
-  <tr>
-   <td>Padded
-   </td>
-   <td>Half plate
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
+    | Light  | Medium  | Heavy  | 
+    | Leather  | Chain shirt  | Full plate  | 
+    | Studded leather  | Scalemail  | Chain mail  | 
+    | Padded  | Half plate  |   | 
 
 
 You can also carry a shield, this will add +1 to you Defend bonus. You cannot use a two handed weapon and shield at the same time.
 
-
-## 
 
 
 ## Combat
 
 How to make friends by stabbing them…
 
-Roll 1d6 + your DEX bonus for initiative, this determines turn order for the combat.
+Roll 2d6 + your DEX bonus for initiative, this determines turn order for the combat.
 
 On your turn, you can do one of the following: attack, cast a spell, move, use an item (like a potion), or dodge.
 
@@ -656,8 +290,3 @@ If you roll a double 1, that is a critical fail. Roll 2d6 under the base stat to
 If you roll a double 6, that is a critical success! You have successed the game fun and get extra benefits.
 
 What skills you have are up to you, if it is appropriate to your character.
-
- 
-
-
-<!-- Docs to Markdown version 1.0β17 -->

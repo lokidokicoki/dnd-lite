@@ -5,10 +5,11 @@
 1. Choose a name.
 2. Choose a race.
 3. Choose a gender.
-7. Character age is 25 + 2d6.
+4. Character age is 25 + 2d6.
 5. Roll your stats.
-4. Choose a class.
-6. Update your stats and fill out your skill bonuses. 
+6. Choose a class.
+7. Update your stats and fill out your skill bonuses. 
+8. Choose an alignment.
 
 ### Stats:
 
@@ -143,6 +144,22 @@ Skill bonuses reflect how well you can do a thing. These are based on your stats
 | 15 - 18    | +3          |
 
 For example, we have a fighter, Steve the Mighty Clencher, with a base strength of 14. A fighter is a member of the Warrior class, this gives us a Strength bonus of +1, therefore our Strength is now 15. Simple maffs, innit. So, using the table above, our Strength Skill bonus is +3
+
+## Alignment
+
+This can affect how other people in the game behave towards you. Ever played Fable? Yeah like that...
+
+### Good:
+
+You help old ladies across the road and put money in charity boxes, you know, the little kiddie with dog outside the newsagents?
+
+### Indifferent:
+
+Old ladies can them across the road by themselves, unless they remind you of your Nan. And charity? WEll, that starts at home, unless it is for the ickle doggos and kitties.
+
+## Bad:
+
+You help old ladies under buses and charity boxes, well, that's just free money right?
 
 ## Weapons
 

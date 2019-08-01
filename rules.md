@@ -73,7 +73,7 @@ You can only use blunt melee weapons.
 
 __Stat boosts__
 
-- WIS bonus +3
+- WIS +3
 
 __Allowed Spells__
 

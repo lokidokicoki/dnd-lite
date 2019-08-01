@@ -20,7 +20,7 @@ Conversion notes:
 # D&D Lite - Character Sheet
 
 
-<table>
+<table width="100%">
   <tr>
    <td><strong>Name</strong>:
    </td>

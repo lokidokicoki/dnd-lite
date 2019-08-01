@@ -5,8 +5,10 @@
 1. Choose a name.
 2. Choose a race.
 3. Choose a gender.
+7. Character age is 25 + 2d6.
+5. Roll your stats.
 4. Choose a class.
-5. Character age is 25 + 2d6.
+6. Update your stats and fill out your skill bonuses. 
 
 ### Stats:
 
@@ -24,19 +26,6 @@ Roll your stats, 3d6 six times and assign the result to:
 These reflect how much damage you can take. If you lose 50% of your current total in one go, roll 2d6 under your CON to not go unconscious.
 
 Starting Hit points = CON * 2   
-
-### Skill bonuses:
-
-Skill bonuses reflect how well you can do a thing. These are based on your stats, including class bonuses. 
-
-| Stat value | Skill Bonus |
-| ---------- | ----------- |
-| 0 - 8      | +0          |
-| 9 - 11     | +1          |
-| 12 - 14    | +2          |
-| 15 - 18    | +3          |
-
-For example, we have a fighter, Steve the Mighty Clencher, with a base strength of 14. A fighter is a member of the Warrior class, this gives us a Strength bonus of +1, therefore our Strength is now 15. Simple maffs, innit. So, using the table above, our Strength Skill bonus is +3
 
 ## Classes
 
@@ -141,6 +130,19 @@ __Stat boosts__
 
 - DEX +2 
 - CHA +1
+
+## Skill bonuses
+
+Skill bonuses reflect how well you can do a thing. These are based on your stats, including class bonuses. 
+
+| Stat value | Skill Bonus |
+| ---------- | ----------- |
+| 0 - 8      | +0          |
+| 9 - 11     | +1          |
+| 12 - 14    | +2          |
+| 15 - 18    | +3          |
+
+For example, we have a fighter, Steve the Mighty Clencher, with a base strength of 14. A fighter is a member of the Warrior class, this gives us a Strength bonus of +1, therefore our Strength is now 15. Simple maffs, innit. So, using the table above, our Strength Skill bonus is +3
 
 ## Weapons
 

@@ -281,11 +281,11 @@ Opponents may be at close, medium, or long range; this can make it harder to hit
 
 Choose an opponent, roll 2D6 and add either your STR bonus for melee or DEX bonus for ranged weapons. If the result is 8 or more, adjusted for the enemy’s armor, cover and movement, then you hit them, yay! 
 
-If you rolled a double 1, fuck! That’s a critical miss, roll 2D6 and get under your DEX to hold onto the weapon. 
+If you rolled a double 1, fuck! That’s a critical miss, roll 2D6 and get under your DEX to hold onto the weapon and not look like an arse. 
 
-If you rolled a double 6, ultra yay! That’s a critical hit, you get one extra D6 of damage to dish out. 
+If you rolled a double 6, ultra yay! That’s a critical hit, you get one extra D6 of damage to dish out and show off to the other players. 
 
-If you hit them, then roll the number of D6 your weapon type has for damage and proudly announce this to the group.
+If you hit them, roll the number of D6 your weapon type has for damage and proudly announce this to the group.
 
 ### Cast a spell
 

@@ -88,7 +88,7 @@ __Allowed Spells__
 
 You have eschewed weapons and gaudy material things. You can ninja the fuck out of things.
 
-No armor, only light blunt melee weapons
+Through lots of training; you know the sort, waxing cars, carrying red hot pots, etc, your body is now a registered medium weapon. This means you can't wield weapons of any sort, but boy, do you pack a punch!
 
 __Stat boosts__
 

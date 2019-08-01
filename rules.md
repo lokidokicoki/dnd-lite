@@ -120,6 +120,7 @@ __Kickers__
 
 - You can wear light or medium armor with no penalty.
 - You can use all ranged weapons, light and medium edged weapons.
+- You can also Dual Wield melee weapons
 
 __Stat boosts__
 
@@ -134,12 +135,13 @@ __Allowed Spells__
 
 ### Rogue
 
-This includes thieves, bards, scamps and ne’er-do-wells. That bloke in the pub that when you shake his hand you count how many fingers you have left.
+This includes thieves, bards, scamps and ne’er-do-wells. That bloke in the pub that when you shake his hand you count how many fingers you have left. 
 
 __Kickers__
 
 - You can wear light armor with no penalty
 - You can use all light weapons with no penalty
+- You can also Dual Wield melee weapons
 
 __Stat boosts__
 
@@ -183,7 +185,7 @@ You help old ladies under buses and charity boxes, well, that's just free money 
 
 ## Weapons
 
-Split in two broad groups, Ranged and Melee and categorised as Light, Medium or Heavy. If you are trying to use a weapon not in your proficiency list, it is -2 on your Attack roll.
+Split in two broad groups, Ranged and Melee and categorised as Light, Medium or Heavy. If you are trying to use a weapon not in your proficiency list, it is -2 on your Attack roll. Some classes allow for Dual-wielding too!
 
 | Weapon type | Damage |
 | ----------- | ------ |
@@ -232,6 +234,12 @@ These are split in Edged and Blunt
 | club            | Mace         | Flail      |
 | whip            | Sledgehammer |            |
 | Hammer          |              |            |
+
+### Dual wielding
+
+A.k.a. "John Woo mode", you can fight with two light weapons, or one medium and one light weapon at the same time. 
+One in each hand, obviously. This gets you two attacks in a combat round, yay! Except the left-hand, gets -1 to the ATK roll, boo! 
+Yeah yeah, I know, the "off-hand" could be the right hand, but I'm right handed, so nerr nerr.
 
 ## Armor
 

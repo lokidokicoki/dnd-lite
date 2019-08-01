@@ -28,24 +28,24 @@ Roll your stats, 3D6 seven times, discard the lowest score, and assign the resul
 
 This includes fighters, brawlers, paladins, knights, barbarians and other types who like to talk with their fists.
 
-####Kickers####
+#### Kickers
 
 - You can use any weapon without penalty.
 - You can wear any armour without penalty.
 
-####Stat boosts####
+#### Stat boosts
 
 - STR +2
 - CON +1
 
 
-#### Paladin
+####  Paladin
 
 Holy-roller fighters, they have access to Priest spells. Unswerving devotion to their "faith" and if the enemy doesn't convert, they smack the Jesus/Krishna/Cthulhu into them!
 
 A minor thing, but you have to be either Good or Bad (see *Alignment*) to be a Paladin. Unless you can convince the GM with a good and funny reason for an Indifferent Paladin!
 
-####Allowed Spells####
+#### Allowed Spells
 
 | Level 1 | Level 2 | Level 3 |
 | ------- | ------- | ------- |
@@ -56,17 +56,17 @@ A minor thing, but you have to be either Good or Bad (see *Alignment*) to be a P
 This includes wizards, sorcerers and all those buggers with gitty-goaty beards, an interest dusty books and wiggling fingers…. Which may or may not be attached. 
 Your main Attack and Defence is your ability to cast spells.
 
-####Kickers####
+#### Kickers
 
 - You cannot use armor of any type.
 - You can use light melee and medium blunt weapons. 
 
-####Stat boosts####
+#### Stat boosts
 
 - INT +3
 - CON -1
 
-####Allowed Spells####
+#### Allowed Spells
 
 | Level 1 | Level 2 | Level 3 |
 | ------- | ------- | ------- |
@@ -76,35 +76,35 @@ Your main Attack and Defence is your ability to cast spells.
 
 Includes clerics, druids and monks. You know the type, happy in a pulpit or tree circle. The power of Christ/FSM/Buddha compels you! You are powered by prayer.
 
-####Kickers####
+#### Kickers
 
 - You can wear light or medium armor without penalty.
 - You can only use blunt melee weapons.
 
-####Stat boosts####
+#### Stat boosts
 
 - WIS +3
 
-####Allowed Spells####
+#### Allowed Spells
 
 | Level 1 | Level 2 | Level 3 |
 | ------- | ------- | ------- |
 | 4       | 3       | 2       |
 
-#### Monk
+####  Monk
 
 You have eschewed weapons and gaudy material things. You can ninja the fuck out of things.
 
 Through lots of training; you know the sort, waxing cars, carrying red hot pots, etc, your body is now a registered medium weapon. This means you can't wield weapons of any sort, but boy, do you pack a punch!
 
-####Kickers####
+#### Kickers
 
 Use these instead of Priest kickers
 
 - You can wear light armor without penalty.
 - You cannot wield any weapons
 
-####Stat boosts####
+#### Stat boosts
 
 Use these instead of Priest boosts
 
@@ -116,18 +116,18 @@ Use these instead of Priest boosts
 
 This includes woodsmen, stalkers and hill-billies. Those worrying folk who actually like going in the woods for fun! Rangers can also cast a small number of spells
 
-####Kickers####
+#### Kickers
 
 - You can wear light or medium armor with no penalty.
 - You can use all ranged weapons, light and medium edged weapons.
 - You can also Dual Wield melee weapons
 
-####Stat boosts####
+#### Stat boosts
 
 - DEX +2
 - WIS +1
 
-####Allowed Spells####
+#### Allowed Spells
 
 | Level 1 | Level 2 | Level 3 |
 | ------- | ------- | ------- |
@@ -137,13 +137,13 @@ This includes woodsmen, stalkers and hill-billies. Those worrying folk who actua
 
 This includes thieves, bards, scamps and ne’er-do-wells. That bloke in the pub that when you shake his hand you count how many fingers you have left. 
 
-####Kickers####
+#### Kickers
 
 - You can wear light armor with no penalty
 - You can use all light weapons with no penalty
 - You can also Dual Wield melee weapons
 
-####Stat boosts####
+#### Stat boosts
 
 - DEX +2 
 - CHA +1
@@ -202,7 +202,7 @@ Split in two broad groups, Ranged and Melee and categorised as Light, Medium or 
 | shuriken        | spear     | Arquebus |
 | Pistol crossbow |           |          |
 
-#### Range penalties
+####  Range penalties
 
 Ranged weapons suffer a penalty if you are trying to hit an enemy too close or too far away. The penalty is added to the enemy’s Defence score. 
 Thankfully, the same thing happens when the enemy tries to fill you full of lead too!
@@ -217,7 +217,7 @@ Thankfully, the same thing happens when the enemy tries to fill you full of lead
 
 These are split in Edged and Blunt
 
-#### Edged
+####  Edged
 
 | Light       | Medium     | Heavy         |
 | ----------- | ---------- | ------------- |
@@ -226,7 +226,7 @@ These are split in Edged and Blunt
 | Hand axe    | Axe        | Naginata      |
 | Short sword |            | Halberd       |
 
-#### Blunt
+####  Blunt
 
 | Light           | Medium       | Heavy      |
 | --------------- | ------------ | ---------- |
@@ -245,7 +245,7 @@ Yeah yeah, I know, the "off-hand" could be the right hand, but I'm right handed,
 
 Stuff wot you wear you keep your insides inside! If you are wearing armor not in your proficiency list, -2 to your Defence score or dodge roll. Armor comes in three types, Light, Medium, and Heavy.
 
-####Defence bonus by Armor type####
+#### Defence bonus by Armor type
 
 | Armor type | Defence bonus |
 | ---------- | ------------- |
@@ -254,7 +254,7 @@ Stuff wot you wear you keep your insides inside! If you are wearing armor not in
 | Medium     | +2            |
 | Heavy      | +3            |
 
-####Armor types####
+#### Armor types
 
 | Light           | Medium      | Heavy      |
 | --------------- | ----------- | ---------- |

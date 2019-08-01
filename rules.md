@@ -202,7 +202,8 @@ Split in two broad groups, Ranged and Melee and categorised as Light, Medium or 
 
 #### Range penalties
 
-Ranged weapons suffer a penalty if you are trying to hit an enemy too close or too far away. The penalty is added to the enemy’s Defence score
+Ranged weapons suffer a penalty if you are trying to hit an enemy too close or too far away. The penalty is added to the enemy’s Defence score. 
+Thankfully, the same thing happens when the enemy tries to fill you full of lead too!
 
 |        | Close | Medium | Long | Extreme |
 | ------ | ----- | ------ | ---- | ------- |

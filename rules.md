@@ -114,7 +114,7 @@ Use these instead of Priest boosts
 
 ### Ranger
 
-This includes woodsmen, stalkers. Those worrying folk who actually like going in the woods for fun! Rangers can also cast a small number of spells
+This includes woodsmen, stalkers and hill-billies. Those worrying folk who actually like going in the woods for fun! Rangers can also cast a small number of spells
 
 __Kickers__
 

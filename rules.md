@@ -28,9 +28,9 @@
   - [Skill bonuses](#Skill-bonuses)
   - [Hit points](#Hit-points)
   - [Alignment](#Alignment)
-    - [Good:](#Good)
-    - [Indifferent:](#Indifferent)
-  - [Bad:](#Bad)
+    - [Good](#Good)
+    - [Bad](#Bad)
+    - [Indifferent](#Indifferent)
   - [Weapons](#Weapons)
     - [Ranged](#Ranged)
       - [Range penalties](#Range-penalties)
@@ -57,23 +57,33 @@
 2. Choose a race.
 3. Choose a gender.
 4. Character age is 25 + 2D6.
-5. Roll your stats.
-6. Choose a class.
-7. Update your stats and fill out your skill bonuses. 
-8. Choose an alignment.
+5. Roll your [Base Stats](#Base-stats).
+6. Choose a [Class](#Classes)
+7. Update your stats and fill out your [Skill bonuses](#Skill-bonuses) 
+8. Choose an [Alignment](#Alignment)
+9. Pick a [Weapon](#Weapons) (or two if allowed)
+10. Grab some [Armor](#Armor)
+11. Decide what [Spells](#Magic) (If allowed) you want
+12. KILL SOME ORCS! THEY STOLE YOUR BIKE AND PISSED ON YOUR CHIPS!!1!
 
 ## Base stats
 
-Roll your stats, 3D6 seven times, discard the lowest score, and assign the result to:
+These represent yur characters basic nature.
 
-- Strength (STR) - used for hitting people
+Roll 3D6 seven times, and discard the lowest score. Then assign the remaining scores to:
+
+- Strength (STR) - used for hitting people and opening jam jars
 - Intelligence (INT) - casting spells, being smort
-- Constitution (CON) - how long you can go for
+- Constitution (CON) - how long you can go for, fnarr
 - Dexterity (DEX) - juggling, shooting bows, fiddly stuffs
 - Charisma (CHA )- oh hello ;)
 - Wisdom (WIS) - how well you know not to piss on an electric fence
 
 ## Classes
+
+This is where you can bring to life that deisre to be a mighty marrior, all oiled up and waring a tiny leather loin cloth. Th sun glistening off your firm, taught buttocks... 
+
+Where was I? Oh yes, classes. Each class has at least some *Kickers* (weapon and armor types you can use), *Stat boosts* (modifiers to your base stats) and sometimes *Allowed Spells* (how many spells you are allowed for a given character level).
 
 ### Warrior
 
@@ -88,7 +98,6 @@ This includes fighters, brawlers, paladins, knights, barbarians and other types 
 
 - STR +2
 - CON +1
-
 
 ####  Paladin
 
@@ -222,21 +231,21 @@ Starting Hit points = CON * 2
 
 This can affect how other people in the game behave towards you. Ever played Fable? Yeah like that...
 
-### Good:
+### Good
 
 You help old ladies across the road and put money in charity boxes, you know, the little kiddie with dog outside the newsagents?
 
-### Indifferent:
-
-Old ladies can them across the road by themselves, unless they remind you of your Nan. And charity? WEll, that starts at home, unless it is for the ickle doggos and kitties.
-
-## Bad:
+### Bad
 
 You help old ladies under buses and charity boxes, well, that's just free money right?
 
+### Indifferent
+
+Old ladies can them across the road by themselves, unless they remind you of your Nan. And charity? WEll, that starts at home, unless it is for the ickle doggos and kitties.
+
 ## Weapons
 
-Split in two broad groups, Ranged and Melee and categorised as Light, Medium or Heavy. If you are trying to use a weapon not in your proficiency list, it is -2 on your Attack roll. Some classes allow for Dual-wielding too!
+Split in two broad groups, Ranged and Melee and categorised as Light, Medium or Heavy. If you are trying to use a weapon not listed your [Class Kickers](#Classes) it is -2 to your Attack roll. Some classes allow for Dual-wielding too!
 
 | Weapon type | Damage |
 | ----------- | ------ |
@@ -288,8 +297,9 @@ These are split in Edged and Blunt
 
 ### Dual wielding
 
-A.k.a. "John Woo mode", you can fight with two light weapons, or one medium and one light weapon at the same time. 
-One in each hand, obviously. This gets you two attacks in a combat round, yay! Except the left-hand, gets -1 to the ATK roll, boo! 
+A.k.a. ["John Woo mode"](https://kotaku.com/this-only-works-in-john-woo-movies-5628594); you can fight with two light weapons, or one medium and one light weapon, at the same time. Heay weapons are right out. I don't care how strong you think you are. Just no.
+
+One in each hand, obviously. This gets you two Attacks in a combat round, yay! Except the left-hand, that gets -1 to the ATK roll, boo! 
 Yeah yeah, I know, the "off-hand" could be the right hand, but I'm right handed, so nerr nerr.
 
 ## Armor
@@ -314,18 +324,21 @@ Stuff wot you wear you keep your insides inside! If you are wearing armor not in
 | Padded          | Half plate  |            |
 
 You can also carry a shield, this will add +1 to you Defence bonus. You cannot use a two handed weapon and shield at the same time. 
-You cannot use a shield with two-handed weapon, or if you are Dual-wielding. Unless your name is Zaphod Beeblebrox. 
-And you had the third arm fitted to help with your ski-boxing.
+You cannot use a shield with a two-handed weapon, or if you are Dual-wielding. 
+
+Unless your name is Zaphod Beeblebrox. 
+
+And you had the third arm fitted to help with your [ski-boxing](https://hitchhikers.fandom.com/wiki/Zaphod_Beeblebrox).
 
 ## Skill checks
 
 All skill checks follow the same format; roll 2D6 and add the appropriate skill bonus. You are aiming to get 8 or more on a roll including your bonus. 
 
-For example, you want to hit someone, roll 2D6 and add your STR skill bonus. Another example, If you want to persuade someone to do something, roll 2D6, add you CHA skill bonus.
+For example, you want to hit someone, roll 2D6 and add your STR skill bonus. Another example, If you want to persuade someone to do something, roll 2D6, add your CHA skill bonus.
 
-If you roll a double 1, that is a critical fail. Roll 2D6 under the base stat to not get a hilarious fuck up.
+If you roll a double 1, that is a critical fail, fuck! Roll 2D6 under the base stat to not get a hilarious fuck up.
 
-If you roll a double 6, that is a critical success! You have successed the game fun and get extra benefits.
+If you roll a double 6, that is a critical success, yay! You have successed the game fun and get extra benefits.
 
 What skills you have are up to you, if it is appropriate to your character. When you want to use a skill, check with the GM if they reckon it would be suitable.
 
@@ -357,14 +370,13 @@ Combat is quick, don't try resurrecting anyone in that time or building a magic 
 
 See [Magic](#Magic) for spells 'n' that for how to cast a spell.
 
-
 ### Move
 
-Moving in combat allows you to get into or out of range.
+Moving in combat allows you to get into or out of range of your opponents.
 
 ### Use an item
 
-Like open a door, pull a lever etc
+Like open a door, pull a lever, read a jazz mag etc
 
 ### Dodge
 
@@ -380,5 +392,5 @@ To cast a spell, roll 2D6 and add your INT bonus to see if you successfully cast
 
 If you rolled a double 1, fuck! That's a critical miss, roll 2D6 under your INT to check your brain didn't melt out of your ears. Or worse.
 
-If you rolled a double 6, yay! That's a critical success, you get one extra dice worth of effect, if applicable. if not, I'm sure the GM will come up with something horrible/hilarious.
+If you rolled a double 6, yay! That's a critical success, you get one extra dice worth of effect, if applicable. If not, I'm sure the GM will come up with something horrible/hilarious.
 

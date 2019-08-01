@@ -28,12 +28,12 @@ Roll your stats, 3D6 seven times, discard the lowest score, and assign the resul
 
 This includes fighters, brawlers, paladins, knights, barbarians and other types who like to talk with their fists.
 
-__Kickers__
+####Kickers####
 
 - You can use any weapon without penalty.
 - You can wear any armour without penalty.
 
-__Stat boosts__
+####Stat boosts####
 
 - STR +2
 - CON +1
@@ -45,7 +45,7 @@ Holy-roller fighters, they have access to Priest spells. Unswerving devotion to 
 
 A minor thing, but you have to be either Good or Bad (see *Alignment*) to be a Paladin. Unless you can convince the GM with a good and funny reason for an Indifferent Paladin!
 
-__Allowed Spells__
+####Allowed Spells####
 
 | Level 1 | Level 2 | Level 3 |
 | ------- | ------- | ------- |
@@ -56,17 +56,17 @@ __Allowed Spells__
 This includes wizards, sorcerers and all those buggers with gitty-goaty beards, an interest dusty books and wiggling fingers…. Which may or may not be attached. 
 Your main Attack and Defence is your ability to cast spells.
 
-__Kickers__
+####Kickers####
 
 - You cannot use armor of any type.
 - You can use light melee and medium blunt weapons. 
 
-__Stat boosts__
+####Stat boosts####
 
 - INT +3
 - CON -1
 
-__Allowed Spells__
+####Allowed Spells####
 
 | Level 1 | Level 2 | Level 3 |
 | ------- | ------- | ------- |
@@ -76,16 +76,16 @@ __Allowed Spells__
 
 Includes clerics, druids and monks. You know the type, happy in a pulpit or tree circle. The power of Christ/FSM/Buddha compels you! You are powered by prayer.
 
-__Kickers__
+####Kickers####
 
 - You can wear light or medium armor without penalty.
 - You can only use blunt melee weapons.
 
-__Stat boosts__
+####Stat boosts####
 
 - WIS +3
 
-__Allowed Spells__
+####Allowed Spells####
 
 | Level 1 | Level 2 | Level 3 |
 | ------- | ------- | ------- |
@@ -97,14 +97,14 @@ You have eschewed weapons and gaudy material things. You can ninja the fuck out 
 
 Through lots of training; you know the sort, waxing cars, carrying red hot pots, etc, your body is now a registered medium weapon. This means you can't wield weapons of any sort, but boy, do you pack a punch!
 
-__Kickers__
+####Kickers####
 
 Use these instead of Priest kickers
 
 - You can wear light armor without penalty.
 - You cannot wield any weapons
 
-__Stat boosts__
+####Stat boosts####
 
 Use these instead of Priest boosts
 
@@ -116,18 +116,18 @@ Use these instead of Priest boosts
 
 This includes woodsmen, stalkers and hill-billies. Those worrying folk who actually like going in the woods for fun! Rangers can also cast a small number of spells
 
-__Kickers__
+####Kickers####
 
 - You can wear light or medium armor with no penalty.
 - You can use all ranged weapons, light and medium edged weapons.
 - You can also Dual Wield melee weapons
 
-__Stat boosts__
+####Stat boosts####
 
 - DEX +2
 - WIS +1
 
-__Allowed Spells__
+####Allowed Spells####
 
 | Level 1 | Level 2 | Level 3 |
 | ------- | ------- | ------- |
@@ -137,13 +137,13 @@ __Allowed Spells__
 
 This includes thieves, bards, scamps and ne’er-do-wells. That bloke in the pub that when you shake his hand you count how many fingers you have left. 
 
-__Kickers__
+####Kickers####
 
 - You can wear light armor with no penalty
 - You can use all light weapons with no penalty
 - You can also Dual Wield melee weapons
 
-__Stat boosts__
+####Stat boosts####
 
 - DEX +2 
 - CHA +1
@@ -245,7 +245,7 @@ Yeah yeah, I know, the "off-hand" could be the right hand, but I'm right handed,
 
 Stuff wot you wear you keep your insides inside! If you are wearing armor not in your proficiency list, -2 to your Defence score or dodge roll. Armor comes in three types, Light, Medium, and Heavy.
 
-__Defence bonus by Armor type__
+####Defence bonus by Armor type####
 
 | Armor type | Defence bonus |
 | ---------- | ------------- |
@@ -254,7 +254,7 @@ __Defence bonus by Armor type__
 | Medium     | +2            |
 | Heavy      | +3            |
 
-__Armor types__
+####Armor types####
 
 | Light           | Medium      | Heavy      |
 | --------------- | ----------- | ---------- |

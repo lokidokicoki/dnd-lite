@@ -1,196 +1,213 @@
-<!----- Conversion time: 0.747 seconds.
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>D&amp;D Lite Character Sheet</title>
+  <style>
+    table {
+      border: 1px solid black;
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1rem;
+    }
+
+    table td,
+    table th {
+      border: 1px solid black;
+    }
+
+    .info tr td:first-child,
+    .info tr td:nth-child(3) {
+      font-weight: bold;
+      width: 8rem;
+    }
+
+    .stats th,
+    .stats td {
+      width: 33%;
+    }
+
+    .stats td:first-child {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>D&amp;D Lite - Character Sheet</h1>
+  <div id="info">
+    <table class="info">
+      <tr>
+        <td>Name</td>
+        <td id="name"></td>
+        <td>Gender</td>
+        <td id="gender"></td>
+      </tr>
+      <tr>
+        <td>Class</td>
+        <td id="class"></td>
+        <td>Age</td>
+        <td id="age"></td>
+      </tr>
+      <tr>
+        <td>Race</td>
+        <td id="race"></td>
+        <td>Level</td>
+        <td id="level"></td>
+      </tr>
+      <tr>
+        <td>Alignment</td>
+        <td id="alignment"></td>
+        <td>Hit points</td>
+        <td id="hit-points"></td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="stats">
+    <table class="stats">
+      <thead>
+        <tr>
+          <th>Stat</th>
+          <th>Value</th>
+          <th>Bonus</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Strength</td>
+          <td id="str-value">&nbsp;</td>
+          <td id="str-bonus">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Constitution</td>
+          <td id="con-value">&nbsp;</td>
+          <td id="con-bonus">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Dexterity</td>
+          <td id="dex-value">&nbsp;</td>
+          <td id="dex-bonus">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Intelligence</td>
+          <td id="int-value">&nbsp;</td>
+          <td id="int-bonus">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Wisdom</td>
+          <td id="wis-value">&nbsp;</td>
+          <td id="wis-bonus">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Charisma</td>
+          <td id="cha-value">&nbsp;</td>
+          <td id="cha-bonus">&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="spells">
+    <p>
+      Spells:
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Level 1</th>
+          <th>Level 2</th>
+          <th>Level 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
 
-Using this HTML file:
+  <div id="armor">
+    <p>
+      Armor:
+    </p>
 
-1. Cut and paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β17
-* Wed Jul 31 2019 17:46:11 GMT-0700 (PDT)
-* Source doc: https://docs.google.com/open?id=1saPUwbWG0rTG2WRMpCA4_hA4D3onKolLkVnZapLfgOU
------>
-
-
-<h1>D&D Lite - Character Sheet</h1>
-
-
-
-<table>
-  <tr>
-   <td><strong>Name</strong>:
-   </td>
-   <td><strong>Gender</strong>:
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Class</strong>:
-   </td>
-   <td><strong>Age</strong>:
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Race</strong>:
-   </td>
-   <td><strong>Level</strong>: 5
-   </td>
-  </tr>
-</table>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+          <th>DEF Bonus</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="arm1-type">&nbsp;</td>
+          <td id="arm1-description">&nbsp;</td>
+          <td id="arm1-def">&nbsp;</td>
+        </tr>
+        <tr class="shield">
+          <td id="arm2-type">&nbsp;</td>
+          <td id="arm2-description">&nbsp;</td>
+          <td id="arm2-def">&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
 
+  <div id="weapons">
+    <p>
+      Weapons:
+    </p>
 
-<table>
-  <tr>
-   <td><strong>Stat</strong>
-   </td>
-   <td><strong>Value</strong>
-   </td>
-   <td><strong>Bonus</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Strength
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Constitution
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Dexterity
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Intelligence
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Wisdom
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Charisma
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+          <th>ATK Bonus</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="main-hand">
+          <td id="wep1-type">&nbsp;</td>
+          <td id="wep1-description">&nbsp;</td>
+          <td id="wep1-atk">&nbsp;</td>
+        </tr>
+        <tr class="off-hand">
+          <td id="wep2-type">&nbsp;</td>
+          <td id="wep2-description">&nbsp;</td>
+          <td id="wep2-atk">&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="equipment">
+    <p>
+      Equipment:
+    </p>
+  </div>
+</body>
 
-
-<p>
-<strong>Spells</strong>:
-</p>
-
-<table>
-  <tr>
-   <td><strong>Level 1</strong>
-   </td>
-   <td><strong>Level 2</strong>
-   </td>
-   <td><strong>Level 3</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
-
-<p>
-<strong>Armor</strong>: 
-</p>
-
-<table>
-  <tr>
-   <td>Type
-   </td>
-   <td>Description
-   </td>
-   <td>DEF Bonus
-   </td>
-  </tr>
-</table>
-
-
-<p>
-<strong>Weapons</strong>:
-</p>
-
-<table>
-  <tr>
-   <td>Type
-   </td>
-   <td>Description
-   </td>
-   <td>ATK Bonus
-   </td>
-  </tr>
-  <tr>
-   <td>Type
-   </td>
-   <td>Description
-   </td>
-   <td>ATK Bonus
-   </td>
-  </tr>
-</table>
-
-
-<p>
-<strong>Equipment</strong>:
-</p>
+</html>

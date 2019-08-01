@@ -28,7 +28,7 @@ The rules are meant to be simple enough to get a game going, but have enough mea
 
 ## Licensing
 
-&D Lite is under the MIT license. Feel free to raise issues if you have ideas for enahncements or think something should be changed. But above all, it is meant to be daft and simple. ANd a bit sweary. I love paying RPGs, D& is the best out there; this is a drunken homage to the awesomeness that Gary Gygax and friends nailed together over many play sessions.
+D&D Lite is under the MIT license. Feel free to raise issues if you have ideas for enahncements or think something should be changed. But above all, it is meant to be daft and simple. ANd a bit sweary. I love paying RPGs, D& is the best out there; this is a drunken homage to the awesomeness that Gary Gygax and friends nailed together over many play sessions.
 
 Any, I hope you have fun with this, get them dice a'rollin!
 

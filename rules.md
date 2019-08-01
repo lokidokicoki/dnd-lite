@@ -25,9 +25,9 @@ These reflect how much damage you can take. If you lose 50% of your current tota
 
 Starting Hit points = CON * 2   
 
-### Base skill bonuses:
+### Skill bonuses:
 
-Skill bonuses reflect how well you can do a thing. 
+Skill bonuses reflect how well you can do a thing. These are based on your stats, including class bonuses. 
 
 | Stat value | Skill Bonus |
 | ---------- | ----------- |
@@ -35,6 +35,8 @@ Skill bonuses reflect how well you can do a thing.
 | 9 - 11     | +1          |
 | 12 - 14    | +2          |
 | 15 - 18    | +3          |
+
+For example, we have a fighter, Steve the Mighty Clencher, with a base strength of 14. A fighter is a member of the Warrior class, this gives us a Strength bonus of +1, therefore our Strength is now 15. Simple maffs, innit. So, using the table above, our Strength Skill bonus is +3
 
 ## Classes
 

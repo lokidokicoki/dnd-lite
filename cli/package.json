@@ -1,0 +1,54 @@
+{
+  "name": "@dndlite/cli",
+  "version": "1.0.0",
+  "description": "Character generator CLI for DNDLite",
+  "bin": {
+    "dndlite": "dist/bin/cli.js"
+  },
+  "main": "dist/bin/cli.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "npx typedoc --out ./docs && echo See docs at file://`pwd`/docs/index.html",
+    "clean": "rm -rf docs dist",
+    "build": "npm run docs && tsc",
+    "prebuild": "npm run clean",
+    "watch": "tsc && npm run watch:all",
+    "watch:all": "onchange 'src/**' -- tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "lokidokicoki@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "8.0.0",
+    "@types/inquirer": "6.5.0",
+    "@types/node": "12.7.1",
+    "onchange": "6.0.0",
+    "tslint": "5.18.0",
+    "typedoc": "0.15.0",
+    "typescript": "3.5.3"
+  },
+  "dependencies": {
+    "commander": "2.20.0",
+    "fs-extra": "8.1.0",
+    "inquirer": "6.5.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokidokicoki/dnd-lite.git"
+  },
+  "keywords": [
+    "dndlite",
+    "character",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/lokidokicoki/dnd-lite/issues"
+  },
+  "homepage": "https://github.com/lokidokicoki/dnd-lite#readme"
+}

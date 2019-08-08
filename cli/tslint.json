@@ -1,0 +1,37 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "no-console": [
+      false
+    ],
+    "max-line-length": [
+      false
+    ],
+    "radix": false,
+    "semicolon": [
+      true,
+      "always"
+    ]
+  },
+  "rulesDirectory": []
+}

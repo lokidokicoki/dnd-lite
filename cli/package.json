@@ -22,6 +22,7 @@
   "author": "lokidokicoki@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "@types/cheerio": "^0.22.13",
     "@types/fs-extra": "8.0.0",
     "@types/inquirer": "6.5.0",
     "@types/node": "12.7.1",
@@ -31,6 +32,7 @@
     "typescript": "3.5.3"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "commander": "2.20.0",
     "fs-extra": "8.1.0",
     "inquirer": "6.5.0"

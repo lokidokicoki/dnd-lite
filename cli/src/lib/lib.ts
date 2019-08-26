@@ -35,42 +35,42 @@ function rollDice(numberOfDice: number, modifier: number = 0): number {
 
 function getClassStat(klass: string, level: number, stat: string): number {
   const classStats = statLookup.get(klass);
-  //console.log(classStats, level, stat);
-  let d1 = Number.MIN_SAFE_INTEGER;
-  let d2 = Number.MIN_SAFE_INTEGER;
-  let rolls = [rollDice(1), rollDice(1), rollDice(1)];
-
-  for (let i = 0; i < rolls.length; i++) {
-    if (rolls[i] > d1) {
-      d2 = d1;
-      d1 = rolls[i];
-    } else if (rolls[i] > d2) {
-      d2 = rolls[1]
-    }
-  }
-
-  console.log(rolls, d1, d2);
+  console.log(classStats, level, stat);
 
 
   return 0;
-
 }
 
+/**
+ * Get base stats rolls, sort descending and return.
+ * NB: there are 7 values, this lets the player exclude the lowest
+ */
 function baseStats() {
   const statRolls: number[] = [];
   for (let i = 0; i < 7; i++) {
-    statRolls.push(rollDice(3))
+    statRolls.push(rollDice(3));
   }
 
-  return statRolls.sort();
+  return statRolls.sort((a: number, b: number) => {
+    return b - a;
+  });
 }
 
-function cullStat(statRolls, value) {
+/**
+ * Clear out value that has already been used.
+ * @param statRolls base stat rolls
+ * @param value value to remove
+ */
+function cullStat(statRolls: number[], value: number): number[] {
   const found = statRolls.indexOf(value);
   statRolls.splice(found, 1);
-  return statRolls
+  return statRolls;
 }
 
+/**
+ * Big fuckoff questionnaire!
+ * @param options from the cli
+ */
 export async function main(options: CommanderStatic) {
   console.log(options === undefined)
   const statRolls = baseStats();
@@ -124,56 +124,62 @@ export async function main(options: CommanderStatic) {
       choices: statRolls,
       default: 0,
       message: 'Strength:',
-      name: 'strValue',
+      name: 'str',
       type: 'list'
     },
     {
       choices: (current: inquirer.Answers) => {
-        return cullStat(statRolls, current.strValue);
+        return cullStat(statRolls, current.str);
       },
       default: 0,
       message: 'Constitution:',
-      name: 'conValue',
+      name: 'con',
       type: 'list'
     },
     {
       choices: (current: inquirer.Answers) => {
-        return cullStat(statRolls, current.conValue);
+        return cullStat(statRolls, current.con);
       },
       default: 0,
       message: 'Intelligence:',
-      name: 'intValue',
+      name: 'int',
       type: 'list'
     },
     {
       choices: (current: inquirer.Answers) => {
-        return cullStat(statRolls, current.intValue);
+        return cullStat(statRolls, current.int);
       },
       default: 0,
       message: 'Dexterity:',
-      name: 'dexValue',
+      name: 'dex',
       type: 'list'
     },
     {
       choices: (current: inquirer.Answers) => {
-        return cullStat(statRolls, current.dexValue);
+        return cullStat(statRolls, current.dex);
       },
       default: 0,
       message: 'Charisma:',
-      name: 'chaValue',
+      name: 'cha',
       type: 'list'
     },
     {
       choices: (current: inquirer.Answers) => {
-        return cullStat(statRolls, current.chaValue);
+        return cullStat(statRolls, current.cha);
       },
       default: 0,
       message: 'Wisdom:',
-      name: 'wisValue',
+      name: 'wis',
       type: 'list'
     },
     {
-      choices: ['Warrior', 'Paladin', 'Mage', 'Priest', 'Monk', 'Ranger', 'Rogue'],
+      choices: (current: inquirer.Answers) => {
+        const classes = ['Warrior', 'Paladin', 'Mage', 'Priest', 'Monk', 'Ranger', 'Rogue'];
+        if (current.alignment === 'Indifferent') {
+          classes.splice(classes.indexOf('Paladin', 1));
+        }
+        return classes
+      },
       message: 'Class:',
       name: 'class',
       type: 'list'
@@ -181,6 +187,7 @@ export async function main(options: CommanderStatic) {
   ] as inquirer.QuestionCollection;
 
   const answers = await inquirer.prompt(questions);
+
 
   console.log(answers);
 }

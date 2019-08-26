@@ -176,7 +176,7 @@ export async function main(options: CommanderStatic) {
       choices: (current: inquirer.Answers) => {
         const classes = ['Warrior', 'Paladin', 'Mage', 'Priest', 'Monk', 'Ranger', 'Rogue'];
         if (current.alignment === 'Indifferent') {
-          classes.splice(classes.indexOf('Paladin', 1));
+          classes.splice(classes.indexOf('Paladin'), 1);
         }
         return classes
       },
@@ -187,6 +187,8 @@ export async function main(options: CommanderStatic) {
   ] as inquirer.QuestionCollection;
 
   const answers = await inquirer.prompt(questions);
+
+  await fs.writeJson(`dump.json`, answers, { spaces: 2 })
 
 
   console.log(answers);

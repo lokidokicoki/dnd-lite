@@ -1,0 +1,44 @@
+[
+  [
+    "ranged",
+    {
+      "light": [
+        "Sling"
+      ],
+      "medium": [
+        "Short bow"
+      ],
+      "heavy": [
+        "Long bow"
+      ]
+    }
+  ],
+  [
+    "edged",
+    {
+      "light": [
+        "Dagger"
+      ],
+      "medium": [
+        "Long sword"
+      ],
+      "heavy": [
+        "Bastard sword"
+      ]
+    }
+  ],
+  [
+    "blunt",
+    {
+      "light": [
+        "Knuckle dusters"
+      ],
+      "medium": [
+        "Staves"
+      ],
+      "heavy": [
+        "Warhammer"
+      ]
+    }
+  ]
+]

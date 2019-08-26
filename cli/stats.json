@@ -37,5 +37,110 @@
         ]
       }
     }
+  ],
+  [
+    "Priest",
+    {
+      "boosts": {
+        "wis": 3
+      },
+      "kickers": {
+        "armor": 3,
+        "weapons": {
+          "ranged": 0,
+          "blunt": 7,
+          "edged": 0
+        },
+        "spells": [
+          4,
+          3,
+          2
+        ]
+      }
+    }
+  ],
+  [
+    "Monk",
+    {
+      "boosts": {
+        "wis": 1,
+        "str": 1,
+        "dex": 1
+      },
+      "kickers": {
+        "armor": 1,
+        "weapons": {
+          "ranged": 0,
+          "blunt": 0,
+          "edged": 0
+        },
+        "spells": [
+          4,
+          3,
+          2
+        ]
+      }
+    }
+  ],
+  [
+    "Ranger",
+    {
+      "boosts": {
+        "dex": 2,
+        "wis": 1
+      },
+      "kickers": {
+        "armor": 3,
+        "weapons": {
+          "ranged": 7,
+          "blunt": 0,
+          "edged": 3
+        },
+        "spells": [
+          4,
+          2
+        ]
+      }
+    }
+  ],
+  [
+    "Rogue",
+    {
+      "boosts": {
+        "dex": 2,
+        "cha": 1
+      },
+      "kickers": {
+        "armor": 1,
+        "weapons": {
+          "ranged": 3,
+          "blunt": 1,
+          "edged": 1
+        },
+        "spells": 0
+      }
+    }
+  ],
+  [
+    "Mage",
+    {
+      "boosts": {
+        "int": 3,
+        "con": -1
+      },
+      "kickers": {
+        "armor": 0,
+        "weapons": {
+          "ranged": 7,
+          "blunt": 7,
+          "edged": 7
+        },
+        "spells": [
+          4,
+          3,
+          2
+        ]
+      }
+    }
   ]
 ]

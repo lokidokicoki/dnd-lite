@@ -1,0 +1,41 @@
+[
+  [
+    "Warrior",
+    {
+      "boosts": {
+        "str": 2,
+        "con": 1
+      },
+      "kickers": {
+        "armor": 7,
+        "weapons": {
+          "ranged": 7,
+          "blunt": 7,
+          "edged": 7
+        },
+        "spells": 0
+      }
+    }
+  ],
+  [
+    "Paladin",
+    {
+      "boosts": {
+        "str": 2,
+        "con": 1
+      },
+      "kickers": {
+        "armor": 7,
+        "weapons": {
+          "ranged": 7,
+          "blunt": 7,
+          "edged": 7
+        },
+        "spells": [
+          4,
+          2
+        ]
+      }
+    }
+  ]
+]

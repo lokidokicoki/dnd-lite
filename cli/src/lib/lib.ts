@@ -3,10 +3,13 @@ import * as path from 'path';
 // import * as cheerio from 'cheerio'
 import * as inquirer from 'inquirer';
 import { CommanderStatic } from 'commander';
+import { ICharacterClass, IWeaponTypes } from './types';
 
 const BASE_AGE = 18;
-const rawstats = fs.readJsonSync(path.join(process.cwd(), `stats.json`))
-const statLookup = new Map(rawstats as any[]);
+const rawClasses = fs.readJsonSync(path.join(process.cwd(), `classes.json`));
+const classMap: Map<string, ICharacterClass> = new Map(rawClasses as any[]);
+const rawWeapons = fs.readJsonSync(path.join(process.cwd(), `weapons.json`));
+const weaponMap: Map<string, IWeaponTypes> = new Map(rawWeapons as any[]);
 
 /**
  * Get a random integer between two values, inclusive
@@ -34,11 +37,27 @@ function rollDice(numberOfDice: number, modifier: number = 0): number {
 }
 
 function getClassStat(klass: string, level: number, stat: string): number {
-  const classStats = statLookup.get(klass);
+  const classStats = classMap.get(klass);
   console.log(classStats, level, stat);
 
 
   return 0;
+}
+
+function getClassWeapons(klass: string): string[] {
+  const characterClass = classMap.get(klass);
+  let weapons: string[] = [];
+  const blunt = weaponMap.get('blunt');
+  if (characterClass.kickers.weapons.blunt & 1) {
+    weapons = weapons.concat(blunt.light)
+  }
+  if (characterClass.kickers.weapons.blunt & 2) {
+    weapons = weapons.concat(blunt.medium)
+  }
+  if (characterClass.kickers.weapons.blunt & 4) {
+    weapons = weapons.concat(blunt.heavy)
+  }
+  return weapons;
 }
 
 /**
@@ -182,6 +201,17 @@ export async function main(options: CommanderStatic) {
       },
       message: 'Class:',
       name: 'class',
+      type: 'list'
+    },
+    {
+      when: (current: inquirer.Answers) => {
+        return current.class !== 'Monk';
+      },
+      choices: (current: inquirer.Answers) => {
+        return getClassWeapons(current.class);
+      },
+      message: 'Now choose your main weapon:',
+      name: 'weapon1',
       type: 'list'
     }
   ] as inquirer.QuestionCollection;

@@ -11,7 +11,6 @@ const rawWeapons = fs.readJsonSync(path.join(process.cwd(), `weapons.json`));
 const armorTypes = fs.readJsonSync(path.join(process.cwd(), `armor.json`));
 const characterClasses: Map<string, ICharacterClass> = new Map(rawClasses as any[]);
 const weaponTypes: Map<string, IWeaponTypes> = new Map(rawWeapons as any[]);
-let characterClass: ICharacterClass;
 
 /**
  * Get a random integer between two values, inclusive
@@ -45,8 +44,7 @@ function getClassStat(klass: string, level: number, stat: string): number {
   return 0;
 }
 
-function getClassArmor(klass: string, useSeparators: boolean = false): string[] {
-  characterClass = characterClass || characterClasses.get(klass);
+function getClassArmor(characterClass: ICharacterClass, useSeparators: boolean = false): string[] {
   let armor: Array<(string | any)> = [];
   if (characterClass.kickers.armor & 1) {
     if (useSeparators) {
@@ -68,8 +66,7 @@ function getClassArmor(klass: string, useSeparators: boolean = false): string[] 
   }
   return armor;
 }
-function getClassWeapons(klass: string, useSeparators: boolean = false): string[] {
-  characterClass = characterClass || characterClasses.get(klass);
+function getClassWeapons(characterClass: ICharacterClass, useSeparators: boolean = false): string[] {
   let weapons: Array<(string | any)> = [];
   const blunt = weaponTypes.get('blunt');
   const edged = weaponTypes.get('edged');
@@ -157,6 +154,19 @@ function cullStat(statRolls: number[], value: number): number[] {
   return statRolls;
 }
 
+function canWield(characterClass: ICharacterClass) {
+  return characterClass.kickers.weapons.ranged !== 0 && characterClass.kickers.weapons.edged !== 0 && characterClass.kickers.weapons.blunt !== 0;
+}
+function canWearArmor(characterClass: ICharacterClass) {
+  return characterClass.kickers.armor !== 0;
+}
+async function processAnswers(answers: inquirer.Answers) {
+  console.log(`raw answers:`, answers);
+
+  // adjust stats based on character class
+
+  await fs.writeJson(`dump.json`, answers, { spaces: 2 });
+}
 /**
  * Big fuckoff questionnaire!
  * @param options from the cli
@@ -206,14 +216,9 @@ export async function main(options: CommanderStatic) {
       type: 'number'
     },
     {
-      message: 'Now for your character stats, this is modified by the class you choose later',
-      name: `discard`,
-      type: 'confirm'
-    },
-    {
       choices: statRolls,
       default: 0,
-      message: 'Strength:',
+      message: 'Now for your character stats, these are modified by the class you choose later.\n\nStrength:',
       name: 'str',
       type: 'list'
     },
@@ -270,6 +275,9 @@ export async function main(options: CommanderStatic) {
         }
         return classes;
       },
+      filter: (current: string) => {
+        return characterClasses.get(current);
+      },
       message: 'Class:',
       name: 'class',
       type: 'list'
@@ -282,7 +290,7 @@ export async function main(options: CommanderStatic) {
       name: 'weapon1',
       type: 'list',
       when: (current: inquirer.Answers) => {
-        return current.class !== 'Monk';
+        return canWield(current.class);
       }
     },
     {
@@ -293,7 +301,7 @@ export async function main(options: CommanderStatic) {
       name: 'weapon2',
       type: 'list',
       when: (current: inquirer.Answers) => {
-        return current.class !== 'Monk' && characterClass.kickers.dualWield;
+        return canWield(current.class) && current.class.kickers.dualWield;
       }
     },
     {
@@ -304,7 +312,7 @@ export async function main(options: CommanderStatic) {
       name: 'armor',
       type: 'list',
       when: (current: inquirer.Answers) => {
-        return current.class !== 'Mage';
+        return canWearArmor(current.class);
       }
     },
     {
@@ -312,7 +320,7 @@ export async function main(options: CommanderStatic) {
       name: 'shield',
       type: 'confirm',
       when: (current: inquirer.Answers) => {
-        return current.class !== 'Mage';
+        return canWearArmor(current.class);
       }
     }
 
@@ -320,7 +328,6 @@ export async function main(options: CommanderStatic) {
 
   const answers = await inquirer.prompt(questions);
 
-  await fs.writeJson(`dump.json`, answers, { spaces: 2 });
+  await processAnswers(answers)
 
-  console.log(answers);
 }

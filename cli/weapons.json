@@ -3,13 +3,20 @@
     "ranged",
     {
       "light": [
-        "Sling"
+        "Sling",
+        "Throwing knives",
+        "Shuriken",
+        "Pistol crossbow"
       ],
       "medium": [
-        "Short bow"
+        "Short bow",
+        "Crossbow",
+        "Spear"
       ],
       "heavy": [
-        "Long bow"
+        "Long bow",
+        "Arbelest",
+        "Arquebus"
       ]
     }
   ],
@@ -17,13 +24,21 @@
     "edged",
     {
       "light": [
-        "Dagger"
+        "Dagger",
+        "Rapier",
+        "Hand axe",
+        "Short sword"
       ],
       "medium": [
-        "Long sword"
+        "Long sword",
+        "Scimitar",
+        "Axe"
       ],
       "heavy": [
-        "Bastard sword"
+        "Bastard sword",
+        "Battle axe",
+        "Naginata",
+        "Halberd"
       ]
     }
   ],
@@ -31,13 +46,19 @@
     "blunt",
     {
       "light": [
-        "Knuckle dusters"
+        "Knuckle dusters",
+        "Club",
+        "Whip",
+        "Hammer"
       ],
       "medium": [
-        "Staves"
+        "Staves",
+        "Mace",
+        "Sledgehammer"
       ],
       "heavy": [
-        "Warhammer"
+        "Warhammer",
+        "Flail"
       ]
     }
   ]

@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Character generator CLI for DNDLite",
   "bin": {
-    "dndlite": "dist/bin/cli.js"
+    "dndlite": "./dist/bin/cli.js"
   },
-  "main": "dist/bin/cli.js",
+  "main": "./dist/bin/cli.js",
   "files": [
     "/dist"
   ],
@@ -17,7 +17,8 @@
     "prebuild": "npm run clean",
     "watch": "tsc && npm run watch:all",
     "watch:all": "onchange 'src/**' -- tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "s": "node ./dist/bin/cli.js"
   },
   "author": "lokidokicoki@gmail.com",
   "license": "MIT",

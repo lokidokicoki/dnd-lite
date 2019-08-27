@@ -24,3 +24,9 @@ export interface IWeaponTypes {
   medium: string[];
   heavy: string[];
 }
+
+export interface IArmorTypes {
+  light: string[];
+  medium: string[];
+  heavy: string[];
+}

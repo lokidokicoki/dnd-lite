@@ -6,8 +6,9 @@ export interface ICharacterClass {
     cha?: number;
     wis?: number;
     int?: number;
-  },
+  };
   kickers: {
+    dualWield?: boolean;
     armor: number;
     weapons: {
       ranged: number;
@@ -15,7 +16,7 @@ export interface ICharacterClass {
       edged: number;
     };
     spells?: any[];
-  }
+  };
 }
 
 export interface IWeaponTypes {

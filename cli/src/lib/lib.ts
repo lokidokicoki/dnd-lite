@@ -1,8 +1,8 @@
+import { CommanderStatic } from 'commander';
 import * as fs from 'fs-extra';
-import * as path from 'path';
 // import * as cheerio from 'cheerio'
 import * as inquirer from 'inquirer';
-import { CommanderStatic } from 'commander';
+import * as path from 'path';
 import { ICharacterClass, IWeaponTypes } from './types';
 
 const BASE_AGE = 18;
@@ -10,6 +10,7 @@ const rawClasses = fs.readJsonSync(path.join(process.cwd(), `classes.json`));
 const classMap: Map<string, ICharacterClass> = new Map(rawClasses as any[]);
 const rawWeapons = fs.readJsonSync(path.join(process.cwd(), `weapons.json`));
 const weaponMap: Map<string, IWeaponTypes> = new Map(rawWeapons as any[]);
+let characterClass: ICharacterClass;
 
 /**
  * Get a random integer between two values, inclusive
@@ -40,22 +41,68 @@ function getClassStat(klass: string, level: number, stat: string): number {
   const classStats = classMap.get(klass);
   console.log(classStats, level, stat);
 
-
   return 0;
 }
 
-function getClassWeapons(klass: string): string[] {
-  const characterClass = classMap.get(klass);
-  let weapons: string[] = [];
+function getClassWeapons(klass: string, useSeparators: boolean = false): string[] {
+  characterClass = characterClass || classMap.get(klass);
+  let weapons: Array<(string | any)> = [];
   const blunt = weaponMap.get('blunt');
+  const edged = weaponMap.get('edged');
+  const ranged = weaponMap.get('ranged');
   if (characterClass.kickers.weapons.blunt & 1) {
-    weapons = weapons.concat(blunt.light)
+    if (useSeparators) {
+      weapons.push(new inquirer.Separator(`= Blunt/light =`));
+    }
+    weapons = weapons.concat(blunt.light);
   }
   if (characterClass.kickers.weapons.blunt & 2) {
-    weapons = weapons.concat(blunt.medium)
+    if (useSeparators) {
+      weapons.push(new inquirer.Separator(`= Blunt/medium =`));
+    }
+    weapons = weapons.concat(blunt.medium);
   }
   if (characterClass.kickers.weapons.blunt & 4) {
-    weapons = weapons.concat(blunt.heavy)
+    if (useSeparators) {
+      weapons.push(new inquirer.Separator(`= Blunt/heavy =`));
+    }
+    weapons = weapons.concat(blunt.heavy);
+  }
+  if (characterClass.kickers.weapons.edged & 1) {
+    if (useSeparators) {
+      weapons.push(new inquirer.Separator(`= Edged/light =`));
+    }
+    weapons = weapons.concat(edged.light);
+  }
+  if (characterClass.kickers.weapons.edged & 2) {
+    if (useSeparators) {
+      weapons.push(new inquirer.Separator(`= Edged/medium =`));
+    }
+    weapons = weapons.concat(edged.medium);
+  }
+  if (characterClass.kickers.weapons.edged & 4) {
+    if (useSeparators) {
+      weapons.push(new inquirer.Separator(`= Edged/heavy =`));
+    }
+    weapons = weapons.concat(edged.heavy);
+  }
+  if (characterClass.kickers.weapons.ranged & 1) {
+    if (useSeparators) {
+      weapons.push(new inquirer.Separator(`= Ranged/light =`));
+    }
+    weapons = weapons.concat(ranged.light);
+  }
+  if (characterClass.kickers.weapons.ranged & 2) {
+    if (useSeparators) {
+      weapons.push(new inquirer.Separator(`= Ranged/medium =`));
+    }
+    weapons = weapons.concat(ranged.medium);
+  }
+  if (characterClass.kickers.weapons.ranged & 4) {
+    if (useSeparators) {
+      weapons.push(new inquirer.Separator(`= Ranged/heavy =`));
+    }
+    weapons = weapons.concat(ranged.heavy);
   }
   return weapons;
 }
@@ -91,7 +138,7 @@ function cullStat(statRolls: number[], value: number): number[] {
  * @param options from the cli
  */
 export async function main(options: CommanderStatic) {
-  console.log(options === undefined)
+  console.log(options === undefined);
   const statRolls = baseStats();
 
   console.log(`Hail brave adventurer!
@@ -128,7 +175,7 @@ export async function main(options: CommanderStatic) {
     },
     {
       default: (current: inquirer.Answers) => {
-        return rollDice(current.level, BASE_AGE)
+        return rollDice(current.level, BASE_AGE);
       },
       message: 'Age:',
       name: 'age',
@@ -197,7 +244,7 @@ export async function main(options: CommanderStatic) {
         if (current.alignment === 'Indifferent') {
           classes.splice(classes.indexOf('Paladin'), 1);
         }
-        return classes
+        return classes;
       },
       message: 'Class:',
       name: 'class',
@@ -208,18 +255,28 @@ export async function main(options: CommanderStatic) {
         return current.class !== 'Monk';
       },
       choices: (current: inquirer.Answers) => {
-        return getClassWeapons(current.class);
+        return getClassWeapons(current.class, true);
       },
       message: 'Now choose your main weapon:',
       name: 'weapon1',
+      type: 'list'
+    },
+    {
+      when: (current: inquirer.Answers) => {
+        return current.class !== 'Monk' && characterClass.kickers.dualWield;
+      },
+      choices: (current: inquirer.Answers) => {
+        return getClassWeapons(current.class, true);
+      },
+      message: 'Now choose your off-hand weapon:',
+      name: 'weapon2',
       type: 'list'
     }
   ] as inquirer.QuestionCollection;
 
   const answers = await inquirer.prompt(questions);
 
-  await fs.writeJson(`dump.json`, answers, { spaces: 2 })
-
+  await fs.writeJson(`dump.json`, answers, { spaces: 2 });
 
   console.log(answers);
 }

@@ -2,6 +2,7 @@
   [
     "Warrior",
     {
+      "type": "Warrior",
       "boosts": {
         "str": 2,
         "con": 1
@@ -20,6 +21,7 @@
   [
     "Paladin",
     {
+      "type": "Paladin",
       "boosts": {
         "str": 2,
         "con": 1
@@ -41,6 +43,7 @@
   [
     "Priest",
     {
+      "type": "Priest",
       "boosts": {
         "wis": 3
       },
@@ -62,6 +65,7 @@
   [
     "Monk",
     {
+      "type": "Monk",
       "boosts": {
         "wis": 1,
         "str": 1,
@@ -85,6 +89,7 @@
   [
     "Ranger",
     {
+      "type": "Ranger",
       "boosts": {
         "dex": 2,
         "wis": 1
@@ -107,6 +112,7 @@
   [
     "Rogue",
     {
+      "type": "Rogue",
       "boosts": {
         "dex": 2,
         "cha": 1
@@ -126,6 +132,7 @@
   [
     "Mage",
     {
+      "type": "Mage",
       "boosts": {
         "int": 3,
         "con": -1

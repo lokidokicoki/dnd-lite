@@ -1,4 +1,5 @@
 export interface ICharacterClass {
+  type: string;
   boosts: {
     str?: number;
     con?: number;

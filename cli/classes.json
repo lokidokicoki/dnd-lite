@@ -90,6 +90,7 @@
         "wis": 1
       },
       "kickers": {
+        "dualWield": true,
         "armor": 3,
         "weapons": {
           "ranged": 7,
@@ -111,6 +112,7 @@
         "cha": 1
       },
       "kickers": {
+        "dualWield": true,
         "armor": 1,
         "weapons": {
           "ranged": 3,

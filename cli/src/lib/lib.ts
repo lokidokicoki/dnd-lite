@@ -7,9 +7,10 @@ import { ICharacterClass, IWeaponTypes } from './types';
 
 const BASE_AGE = 18;
 const rawClasses = fs.readJsonSync(path.join(process.cwd(), `classes.json`));
-const classMap: Map<string, ICharacterClass> = new Map(rawClasses as any[]);
 const rawWeapons = fs.readJsonSync(path.join(process.cwd(), `weapons.json`));
-const weaponMap: Map<string, IWeaponTypes> = new Map(rawWeapons as any[]);
+const armorTypes = fs.readJsonSync(path.join(process.cwd(), `armor.json`));
+const characterClasses: Map<string, ICharacterClass> = new Map(rawClasses as any[]);
+const weaponTypes: Map<string, IWeaponTypes> = new Map(rawWeapons as any[]);
 let characterClass: ICharacterClass;
 
 /**
@@ -38,18 +39,41 @@ function rollDice(numberOfDice: number, modifier: number = 0): number {
 }
 
 function getClassStat(klass: string, level: number, stat: string): number {
-  const classStats = classMap.get(klass);
+  const classStats = characterClasses.get(klass);
   console.log(classStats, level, stat);
 
   return 0;
 }
 
+function getClassArmor(klass: string, useSeparators: boolean = false): string[] {
+  characterClass = characterClass || characterClasses.get(klass);
+  let armor: Array<(string | any)> = [];
+  if (characterClass.kickers.armor & 1) {
+    if (useSeparators) {
+      armor.push(new inquirer.Separator(`= Light =`));
+    }
+    armor = armor.concat(armorTypes.light);
+  }
+  if (characterClass.kickers.armor & 2) {
+    if (useSeparators) {
+      armor.push(new inquirer.Separator(`= Medium =`));
+    }
+    armor = armor.concat(armorTypes.medium);
+  }
+  if (characterClass.kickers.armor & 4) {
+    if (useSeparators) {
+      armor.push(new inquirer.Separator(`= Heavy =`));
+    }
+    armor = armor.concat(armorTypes.heavy);
+  }
+  return armor;
+}
 function getClassWeapons(klass: string, useSeparators: boolean = false): string[] {
-  characterClass = characterClass || classMap.get(klass);
+  characterClass = characterClass || characterClasses.get(klass);
   let weapons: Array<(string | any)> = [];
-  const blunt = weaponMap.get('blunt');
-  const edged = weaponMap.get('edged');
-  const ranged = weaponMap.get('ranged');
+  const blunt = weaponTypes.get('blunt');
+  const edged = weaponTypes.get('edged');
+  const ranged = weaponTypes.get('ranged');
   if (characterClass.kickers.weapons.blunt & 1) {
     if (useSeparators) {
       weapons.push(new inquirer.Separator(`= Blunt/light =`));
@@ -251,27 +275,47 @@ export async function main(options: CommanderStatic) {
       type: 'list'
     },
     {
-      when: (current: inquirer.Answers) => {
-        return current.class !== 'Monk';
-      },
       choices: (current: inquirer.Answers) => {
         return getClassWeapons(current.class, true);
       },
       message: 'Now choose your main weapon:',
       name: 'weapon1',
-      type: 'list'
+      type: 'list',
+      when: (current: inquirer.Answers) => {
+        return current.class !== 'Monk';
+      }
     },
     {
-      when: (current: inquirer.Answers) => {
-        return current.class !== 'Monk' && characterClass.kickers.dualWield;
-      },
       choices: (current: inquirer.Answers) => {
         return getClassWeapons(current.class, true);
       },
       message: 'Now choose your off-hand weapon:',
       name: 'weapon2',
-      type: 'list'
+      type: 'list',
+      when: (current: inquirer.Answers) => {
+        return current.class !== 'Monk' && characterClass.kickers.dualWield;
+      }
+    },
+    {
+      choices: (current: inquirer.Answers) => {
+        return getClassArmor(current.class, true);
+      },
+      message: 'Now choose your armor:',
+      name: 'armor',
+      type: 'list',
+      when: (current: inquirer.Answers) => {
+        return current.class !== 'Mage';
+      }
+    },
+    {
+      message: 'Would you like a shield? Remember, you can only use one weapon with a shield.',
+      name: 'shield',
+      type: 'confirm',
+      when: (current: inquirer.Answers) => {
+        return current.class !== 'Mage';
+      }
     }
+
   ] as inquirer.QuestionCollection;
 
   const answers = await inquirer.prompt(questions);

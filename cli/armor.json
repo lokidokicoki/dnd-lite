@@ -1,0 +1,16 @@
+{
+  "light": [
+    "Leather",
+    "Studded leather",
+    "Padded"
+  ],
+  "medium": [
+    "Chain shirt",
+    "Scalemail",
+    "Half plate"
+  ],
+  "heavy": [
+    "Full plate",
+    "Chain mail"
+  ]
+}

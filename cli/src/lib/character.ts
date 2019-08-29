@@ -54,6 +54,7 @@ export class Character implements ICharacterClass {
   };
 
   public hitPoints: number;
+  public equipment: string[];
 
   constructor(options: any) {
     // get characterClass
@@ -84,6 +85,8 @@ export class Character implements ICharacterClass {
       str: 0,
       wis: 0
     };
+
+    this.equipment = options.equipment || [];
 
     this.update();
   }

@@ -1,3 +1,4 @@
+import * as cheerio from 'cheerio';
 import { getSkillBonus } from './lib';
 import { ICharacterClass } from './types';
 
@@ -89,6 +90,29 @@ export class Character implements ICharacterClass {
     this.equipment = options.equipment || [];
 
     this.update();
+  }
+
+  public htmlOutput(html: string) {
+    const $ = cheerio.load(html);
+
+    $(`#name`).text(this.name);
+    $(`#age`).text(this.age.toString());
+    $(`#gender`).text(this.gender);
+    $(`#race`).text(this.race);
+    $(`#class`).text(this.type);
+    $(`#level`).text(this.level.toString());
+    $(`#alignment`).text(this.alignment);
+    $(`#hit-points`).text(this.hitPoints.toString());
+
+    //stats and bonuses
+    for (const key of Object.keys(this.stats)) {
+      $(`#${key}-value`).text(this.stats[key].toString());
+      $(`#${key}-bonus`).text(this.skillBonuses[key].toString());
+    }
+
+
+
+    return $.html();
   }
 
   private update() {

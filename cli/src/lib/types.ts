@@ -7,6 +7,7 @@ export interface ICharacterClass {
     cha?: number;
     wis?: number;
     int?: number;
+    [key: string]: number;
   };
   kickers: {
     dualWield?: boolean;

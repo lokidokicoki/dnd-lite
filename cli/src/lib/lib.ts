@@ -1,6 +1,5 @@
 import { CommanderStatic } from 'commander';
 import * as fs from 'fs-extra';
-// import * as cheerio from 'cheerio'
 import * as inquirer from 'inquirer';
 import * as path from 'path';
 import { Character } from './character';
@@ -229,6 +228,13 @@ async function processAnswers(answers: inquirer.Answers) {
 
   // dump raw character values
   await fs.writeJson(`dump.json`, character, { spaces: 2 });
+
+  let html = await fs.readFile(`character-sheet.html`, `utf8`);
+
+  html = character.htmlOutput(html);
+  const fileName = character.name.toLowerCase().replace(/ /g, `-`);
+
+  await fs.writeFile(`${fileName}.html`, html, `utf8`);
 }
 /**
  * Big fuckoff questionnaire!
@@ -244,7 +250,7 @@ export async function main(options: CommanderStatic) {
 
   const questions = [
     {
-      default: 'Steve the Might Clencher',
+      default: 'Steve the Mighty Clencher',
       message: 'Character name:',
       name: `name`,
       type: 'input'

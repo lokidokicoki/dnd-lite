@@ -9,6 +9,7 @@ import { IArmorTypes, ICharacterClass, IEquipmentList, IWeaponTypes } from './ty
 const BASE_AGE = 18;
 const rawClasses = fs.readJsonSync(path.join(process.cwd(), `classes.json`));
 const rawWeapons = fs.readJsonSync(path.join(process.cwd(), `weapons.json`));
+const races = fs.readJsonSync(path.join(process.cwd(), `races.json`));
 const armorTypes: IArmorTypes = fs.readJsonSync(path.join(process.cwd(), `armor.json`));
 const equipmentList: IEquipmentList = fs.readJsonSync(path.join(process.cwd(), `equipment.json`));
 const characterClasses: Map<string, ICharacterClass> = new Map(rawClasses as any[]);
@@ -243,19 +244,22 @@ export async function main(options: CommanderStatic) {
 
   const questions = [
     {
+      default: 'Steve the Might Clencher',
       message: 'Character name:',
       name: `name`,
       type: 'input'
     },
     {
+      default: 'Attack helicopter',
       message: 'Gender:',
       name: `gender`,
       type: 'input'
     },
     {
+      choices: races,
       message: 'Race:',
       name: 'race',
-      type: 'input'
+      type: 'list'
     },
     {
       choices: [`Good`, `Bad`, `Indifferent`],

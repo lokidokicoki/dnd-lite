@@ -1,0 +1,33 @@
+{
+  "warrior": [
+    "leather oils"
+  ],
+  "paladin": [
+    "symbol of faith"
+  ],
+  "priest": [
+    "symbol of fatih",
+    "holy scripture"
+  ],
+  "monk": [
+    "chopsticks",
+    "a little brass bell"
+  ],
+  "mage": [
+    "book of spells",
+    "inhaler"
+  ],
+  "ranger": [
+    "whittling knife"
+  ],
+  "rogue": [
+    "thieves tools"
+  ],
+  "generic": [
+    "torches",
+    "clean underwear",
+    "lemon scented knapkins",
+    "flint and steel",
+    "stuff"
+  ]
+}

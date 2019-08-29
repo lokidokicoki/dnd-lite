@@ -4,12 +4,13 @@ import * as fs from 'fs-extra';
 import * as inquirer from 'inquirer';
 import * as path from 'path';
 import { Character } from './character';
-import { ICharacterClass, IWeaponTypes } from './types';
+import { IArmorTypes, ICharacterClass, IEquipmentList, IWeaponTypes } from './types';
 
 const BASE_AGE = 18;
 const rawClasses = fs.readJsonSync(path.join(process.cwd(), `classes.json`));
 const rawWeapons = fs.readJsonSync(path.join(process.cwd(), `weapons.json`));
-const armorTypes = fs.readJsonSync(path.join(process.cwd(), `armor.json`));
+const armorTypes: IArmorTypes = fs.readJsonSync(path.join(process.cwd(), `armor.json`));
+const equipmentList: IEquipmentList = fs.readJsonSync(path.join(process.cwd(), `equipment.json`));
 const characterClasses: Map<string, ICharacterClass> = new Map(rawClasses as any[]);
 const weaponTypes: Map<string, IWeaponTypes> = new Map(rawWeapons as any[]);
 
@@ -165,19 +166,67 @@ function cullStat(statRolls: number[], value: number): number[] {
   return statRolls;
 }
 
+/**
+ * What weapons can this character wield?
+ * @param characterClass current character
+ */
 function canWield(characterClass: ICharacterClass) {
   return characterClass.kickers.weapons.ranged !== 0 && characterClass.kickers.weapons.edged !== 0 && characterClass.kickers.weapons.blunt !== 0;
 }
+
+/**
+ * What armor can this character wear?
+ * @param characterClass current character
+ */
 function canWearArmor(characterClass: ICharacterClass) {
   return characterClass.kickers.armor !== 0;
 }
+
+/**
+ * Build out the character.
+ * @param answers cli answers
+ */
 async function processAnswers(answers: inquirer.Answers) {
-  console.log(`raw answers:`, answers);
   await fs.writeJson(`dump-answers.json`, answers, { spaces: 2 });
+
   const character = new Character(answers);
 
-  // adjust stats based on character class
+  // supply default equipment based on character
+  character.equipment = equipmentList[character.type.toLowerCase()];
 
+  // get generic equipment based on charisma score modulo 3
+  const items = parseInt((character.stats.cha / 3).toFixed(0));
+  for (let i = 0; i < items; i++) {
+    character.equipment.push(equipmentList.generic[getRandomInt(0, equipmentList.generic.length - 1)]);
+  }
+
+  let cash = 'No money';
+  switch (items) {
+    case 1:
+      cash = 'very little money';
+      break;
+    case 2:
+      cash = 'a little money';
+      break;
+    case 3:
+      cash = 'some money';
+      break;
+    case 4:
+      cash = 'plenty of money';
+      break;
+    case 6:
+      cash = 'lots of money';
+      break;
+    case 7:
+      cash = 'absolute shitloads of money';
+      break;
+    default:
+      break;
+  }
+
+  character.equipment.push(cash);
+
+  // dump raw character values
   await fs.writeJson(`dump.json`, character, { spaces: 2 });
 }
 /**

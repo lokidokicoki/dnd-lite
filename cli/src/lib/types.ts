@@ -32,3 +32,15 @@ export interface IArmorTypes {
   medium: string[];
   heavy: string[];
 }
+
+export interface IEquipmentList {
+  warrior: string[];
+  paladin: string[];
+  priest: string[];
+  monk: string[];
+  mage: string[];
+  ranger: string[];
+  rogue: string[];
+  generic: string[];
+  [key: string]: string[];
+}

@@ -3,6 +3,7 @@ import * as fs from 'fs-extra';
 // import * as cheerio from 'cheerio'
 import * as inquirer from 'inquirer';
 import * as path from 'path';
+import { Character } from './character';
 import { ICharacterClass, IWeaponTypes } from './types';
 
 const BASE_AGE = 18;
@@ -37,11 +38,21 @@ function rollDice(numberOfDice: number, modifier: number = 0): number {
   return result;
 }
 
-function getClassStat(klass: string, level: number, stat: string): number {
-  const classStats = characterClasses.get(klass);
-  console.log(classStats, level, stat);
+/**
+ * Get bonus for stat value
+ * @param value stat value
+ */
+export function getSkillBonus(value: number) {
+  let bonus = 0;
 
-  return 0;
+  if (value > 8 && value <= 11) {
+    bonus = 1;
+  } else if (value >= 12 && value <= 14) {
+    bonus = 2;
+  } else if (value >= 15) {
+    bonus = 3;
+  }
+  return bonus;
 }
 
 function getClassArmor(characterClass: ICharacterClass, useSeparators: boolean = false): string[] {
@@ -162,10 +173,12 @@ function canWearArmor(characterClass: ICharacterClass) {
 }
 async function processAnswers(answers: inquirer.Answers) {
   console.log(`raw answers:`, answers);
+  await fs.writeJson(`dump-answers.json`, answers, { spaces: 2 });
+  const character = new Character(answers);
 
   // adjust stats based on character class
 
-  await fs.writeJson(`dump.json`, answers, { spaces: 2 });
+  await fs.writeJson(`dump.json`, character, { spaces: 2 });
 }
 /**
  * Big fuckoff questionnaire!
@@ -328,6 +341,6 @@ export async function main(options: CommanderStatic) {
 
   const answers = await inquirer.prompt(questions);
 
-  await processAnswers(answers)
+  await processAnswers(answers);
 
 }

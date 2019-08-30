@@ -1,33 +1,70 @@
 {
   "warrior": [
-    "leather oils"
+    "leather/baby oils",
+    "50' rope",
+    "crowbar",
+    "whetstone",
+    "armor repair kit"
   ],
   "paladin": [
-    "symbol of faith"
+    "symbol of faith",
+    "signet ring",
+    "a sense of entitlement"
   ],
   "priest": [
     "symbol of fatih",
-    "holy scripture"
+    "holy scripture",
+    "ceremonial garb",
+    "candles",
+    "a little sliver bell",
+    "healer's kit; barber surgeons special"
   ],
   "monk": [
     "chopsticks",
-    "a little brass bell"
+    "a little brass bell",
+    "quill pen",
+    "ink vial",
+    "some parchment, partially illuminated"
   ],
   "mage": [
     "book of spells",
-    "inhaler"
+    "inhaler",
+    "abacus",
+    "poison vial",
+    "quill pen",
+    "ink vial"
   ],
   "ranger": [
-    "whittling knife"
+    "whittling knife",
+    "caltrops",
+    "hunting trap"
   ],
   "rogue": [
-    "thieves tools"
+    "thieves tools",
+    "acid vial",
+    "antitoxin vial",
+    "caltrops",
+    "poison vial",
+    "crowbar"
   ],
   "generic": [
+    "climbers kit",
     "torches",
     "clean underwear",
     "lemon scented knapkins",
     "flint and steel",
-    "stuff"
+    "shovel",
+    "tent"
+  ],
+  "mandatory": [
+    "lamp",
+    "lamp oil",
+    "tinderbox",
+    "waterskin",
+    "backpack",
+    "bedroll",
+    "a change of clothes",
+    "flask or tankard",
+    "mess kit"
   ]
 }

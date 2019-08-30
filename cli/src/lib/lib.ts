@@ -200,31 +200,41 @@ async function processAnswers(answers: inquirer.Answers) {
     character.equipment.push(equipmentList.generic[getRandomInt(0, equipmentList.generic.length - 1)]);
   }
 
+  character.equipment.push(...equipmentList.mandatory);
+
   let cash = 'No money';
+  let rations = 'No rations';
   switch (items) {
     case 1:
       cash = 'very little money';
+      rations = 'meagre rations';
       break;
     case 2:
       cash = 'a little money';
+      rations = 'a few rations';
       break;
     case 3:
       cash = 'some money';
+      rations = 'several rations';
       break;
     case 4:
       cash = 'plenty of money';
+      rations = 'enough rations to get by';
       break;
     case 6:
       cash = 'lots of money';
+      rations = 'lots of rations';
       break;
     case 7:
       cash = 'absolute shitloads of money';
+      rations = 'a fat bastards amount of rations';
       break;
     default:
       break;
   }
 
   character.equipment.push(cash);
+  character.equipment.push(rations);
 
   // dump raw character values
   await fs.writeJson(`dump.json`, character, { spaces: 2 });

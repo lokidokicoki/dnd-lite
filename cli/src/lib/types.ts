@@ -42,5 +42,6 @@ export interface IEquipmentList {
   ranger: string[];
   rogue: string[];
   generic: string[];
+  mandatory: string[];
   [key: string]: string[];
 }

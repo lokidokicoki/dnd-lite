@@ -1,6 +1,7 @@
 import { CommanderStatic } from 'commander';
 import * as fs from 'fs-extra';
 import * as inquirer from 'inquirer';
+import * as os from 'os';
 import * as path from 'path';
 import { Character } from './character';
 import { IArmorTypes, ICharacterClass, IEquipmentList, IWeaponTypes } from './types';
@@ -242,9 +243,10 @@ async function processAnswers(answers: inquirer.Answers) {
   let html = await fs.readFile(`character-sheet.html`, `utf8`);
 
   html = character.htmlOutput(html);
-  const fileName = character.name.toLowerCase().replace(/ /g, `-`);
-
-  await fs.writeFile(`${fileName}.html`, html, `utf8`);
+  const fileName = path.join(os.homedir(), `dndlite-characters`, `${character.name.toLowerCase().replace(/ /g, `-`)}.html`);
+  console.log(`You did! You made it to the end! Your character sheet is here:`, fileName);
+  await fs.ensureFile(fileName);
+  await fs.writeFile(`${fileName}`, html, `utf8`);
 }
 /**
  * Big fuckoff questionnaire!

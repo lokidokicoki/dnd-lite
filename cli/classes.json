@@ -14,7 +14,7 @@
           "blunt": 7,
           "edged": 7
         },
-        "spells": 0
+        "allowedSpells": []
       }
     }
   ],
@@ -33,9 +33,57 @@
           "blunt": 7,
           "edged": 7
         },
-        "spells": [
-          4,
-          2
+        "allowedSpells": [
+          {
+            "easy": 2,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 3,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 6,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 7,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 9,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 1,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 2,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 4,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 5,
+            "hard": 0
+          }
         ]
       }
     }
@@ -54,10 +102,57 @@
           "blunt": 7,
           "edged": 0
         },
-        "spells": [
-          4,
-          3,
-          2
+        "allowedSpells": [
+          {
+            "easy": 3,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 7,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 2,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 5,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 6,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 6,
+            "hard": 1
+          },
+          {
+            "easy": 10,
+            "medium": 6,
+            "hard": 2
+          },
+          {
+            "easy": 10,
+            "medium": 6,
+            "hard": 3
+          },
+          {
+            "easy": 10,
+            "medium": 7,
+            "hard": 4
+          }
         ]
       }
     }
@@ -78,11 +173,7 @@
           "blunt": 0,
           "edged": 0
         },
-        "spells": [
-          4,
-          3,
-          2
-        ]
+        "allowedSpells": []
       }
     }
   ],
@@ -102,9 +193,57 @@
           "blunt": 0,
           "edged": 3
         },
-        "spells": [
-          4,
-          2
+        "allowedSpells": [
+          {
+            "easy": 2,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 3,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 6,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 7,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 9,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 1,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 2,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 4,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 5,
+            "hard": 0
+          }
         ]
       }
     }
@@ -125,7 +264,7 @@
           "blunt": 1,
           "edged": 1
         },
-        "spells": 0
+        "allowedSpells": []
       }
     }
   ],
@@ -144,10 +283,57 @@
           "blunt": 7,
           "edged": 7
         },
-        "spells": [
-          4,
-          3,
-          2
+        "allowedSpells": [
+          {
+            "easy": 3,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 7,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 0,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 2,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 5,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 6,
+            "hard": 0
+          },
+          {
+            "easy": 10,
+            "medium": 6,
+            "hard": 1
+          },
+          {
+            "easy": 10,
+            "medium": 6,
+            "hard": 2
+          },
+          {
+            "easy": 10,
+            "medium": 7,
+            "hard": 3
+          },
+          {
+            "easy": 10,
+            "medium": 8,
+            "hard": 4
+          }
         ]
       }
     }

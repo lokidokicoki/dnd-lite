@@ -104,12 +104,19 @@ export class Character implements ICharacterClass {
     $(`#alignment`).text(this.alignment);
     $(`#hit-points`).text(this.hitPoints.toString());
 
-    //stats and bonuses
+    // stats and bonuses
     for (const key of Object.keys(this.stats)) {
       $(`#${key}-value`).text(this.stats[key].toString());
       $(`#${key}-bonus`).text(this.skillBonuses[key].toString());
     }
 
+    // spells
+
+    // weapons
+
+    // armor
+
+    // equipment
 
 
     return $.html();

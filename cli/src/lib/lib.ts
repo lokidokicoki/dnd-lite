@@ -353,7 +353,7 @@ export async function main(options: CommanderStatic) {
     },
     {
       choices: (current: inquirer.Answers) => {
-        const classes = ['Warrior', 'Paladin', 'Mage', 'Priest', 'Monk', 'Ranger', 'Rogue'];
+        const classes = ['Warrior', 'Paladin', 'Wizard', 'Priest', 'Monk', 'Ranger', 'Rogue'];
         if (current.alignment === 'Indifferent') {
           classes.splice(classes.indexOf('Paladin'), 1);
         }

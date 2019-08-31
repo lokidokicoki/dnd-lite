@@ -269,9 +269,9 @@
     }
   ],
   [
-    "Mage",
+    "Wizard",
     {
-      "type": "Mage",
+      "type": "Wizard",
       "boosts": {
         "int": 3,
         "con": -1

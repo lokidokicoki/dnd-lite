@@ -17,7 +17,11 @@ export interface ICharacterClass {
       blunt: number;
       edged: number;
     };
-    spells?: any[];
+    allowedSpells: [{
+      easy: number;
+      medium: number;
+      hard: number
+    }];
   };
 }
 

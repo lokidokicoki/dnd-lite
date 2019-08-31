@@ -1,0 +1,3642 @@
+{
+  "easy": [
+    {
+      "name": "Alarm",
+      "classes": [
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Animal Friendship",
+      "classes": [
+        "bard",
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Armor of Agathys",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Arms of Hadar",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Bane",
+      "classes": [
+        "bard",
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Bless",
+      "classes": [
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Burning Hands",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Charm Person",
+      "classes": [
+        "bard",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Chromatic Orb",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Color Spray",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Command",
+      "classes": [
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Compelled Duel",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Comprehend Languages",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Create or Destroy Water",
+      "classes": [
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Cure Wounds",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "paladin",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Detect Evil and Good",
+      "classes": [
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Detect Magic",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "paladin",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Detect Poison and Disease",
+      "classes": [
+        "priest",
+        "druid",
+        "paladin",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Disguise Self",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Dissonant Whispers",
+      "classes": [
+        "bard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Divine Favor",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Ensnaring Strike",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Entangle",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Expeditious Retreat",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "False Life",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Faerie Fire",
+      "classes": [
+        "bard",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Feather Fall",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Find Familiar",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Fog Cloud",
+      "classes": [
+        "druid",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Goodberry",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Grease",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Guiding Bolt",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Hail of Thorns",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Healing Word",
+      "classes": [
+        "bard",
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Hellish Rebuke ",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Heroism",
+      "classes": [
+        "bard",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Hex",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Hunter's Mark",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Identify",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Illusory Script",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Inflict Wounds",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Jump",
+      "classes": [
+        "druid",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Longstrider",
+      "classes": [
+        "bard",
+        "druid",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mage Armor",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Magic Missle",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Protection from Evil and Good",
+      "classes": [
+        "priest",
+        "paladin",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Purify Food and Drink",
+      "classes": [
+        "priest",
+        "druid",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Ray of Sickness",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Searing Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Sanctuary",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Shield",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Shield of Faith",
+      "classes": [
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Silent Image",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Sleep",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Speak with Animals",
+      "classes": [
+        "bard",
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Tasha's Hideous Laughter",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Tensor's Floating Disk",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Thunderous Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Thunderwave",
+      "classes": [
+        "bard",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Unseen Servant",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Witch Bolt",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Wrathful Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Aid",
+      "classes": [
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Alter Self",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Animal Messenger",
+      "classes": [
+        "bard",
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Arcane Lock",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Augury",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Barkskin",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Beast Sense",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Blindness/Deafness",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Blur",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Branding Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Calm Emotions",
+      "classes": [
+        "bard",
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Cloud of Daggers",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Continual Flame",
+      "classes": [
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Cordon of Arrows",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Crown of Madness",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Darkness",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Darkvision",
+      "classes": [
+        "druid",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Detect Thoughts",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Enhance Ability",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Enlarge/Reduce",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Enthrall",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Find Steed",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Find Traps",
+      "classes": [
+        "priest",
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Flame Blade",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Flaming Sphere",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Heat Metal",
+      "classes": [
+        "bard",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Hold Person",
+      "classes": [
+        "bard",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Gentle Repose",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Gust of Wind",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Invisibility",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Knock",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Lesser Restoration",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "paladin",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Levitate",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Locate Animals or Plants",
+      "classes": [
+        "bard",
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Locate Object",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "paladin",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Magic Mouth",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Magic Weapon",
+      "classes": [
+        "paladin",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Melf's Acid Arrow",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mirror Image",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Misty Step",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Moonbeam",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Nystul's Magic Aura",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Pass without Trace",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Phantasmal Force",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Prayer of Healing",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Protection of Poison",
+      "classes": [
+        "priest",
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Ray of Enfeeblement",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Rope Trick",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Scorching Ray",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "See Invisibility",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Shatter",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Silence",
+      "classes": [
+        "bard",
+        "priest",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Spider Climb",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Spike Growth",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Spiritual Weapon",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Suggestion",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Warding Bond",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Web",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Zone of Truth",
+      "classes": [
+        "bard",
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Animate Dead",
+      "classes": [
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Aura of Vitality",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Beacon of Hope",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Bestow Curse",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Blinding Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Blink",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Call Lightning",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Clairvoyance",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Conjure Animals",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Conjure Barrage",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Counterspell",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Create Food and Water",
+      "classes": [
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Crusader's Mantle",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Daylight",
+      "classes": [
+        "priest",
+        "druid",
+        "paladin",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Dispel Magic",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "paladin",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Elemental Weapon",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Fear",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Feign Death",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Fireball",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Fly",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Gaseous Form",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Glyph of Warding",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Haste",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Hunger of Hadar",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Hypnotic Pattern",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Leomund's Tiny Hut",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Lightning Arrow",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Lightning Bolt",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Magic Circle",
+      "classes": [
+        "priest",
+        "paladin",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Major Image",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mass Healing Word",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Meld Into Stone",
+      "classes": [
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Nondetection",
+      "classes": [
+        "bard",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Phantom Steed",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Plant Growth",
+      "classes": [
+        "bard",
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Protection from Energy",
+      "classes": [
+        "priest",
+        "druid",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Remove Curse",
+      "classes": [
+        "priest",
+        "paladin",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Revivify",
+      "classes": [
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Sending",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Sleet Storm",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Slow",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Speak with Dead",
+      "classes": [
+        "bard",
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Speak with Plants",
+      "classes": [
+        "bard",
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Spirit Guardians",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Stinking Cloud",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Tongues",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Vampiric Touch",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Water Breathing",
+      "classes": [
+        "druid",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Water Walk",
+      "classes": [
+        "priest",
+        "druid",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Wind Wall",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    }
+  ],
+  "medium": [
+    {
+      "name": "Aura of Life",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Aura of Purify",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Arcane Eye",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Banishment",
+      "classes": [
+        "priest",
+        "paladin",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Blight",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Compulsion",
+      "classes": [
+        "bard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Confusion",
+      "classes": [
+        "bard",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Conjure Minor Elementals",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Conjure Woodland Beings",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Control Water",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Control Weather",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Death Ward",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Dimension Door",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Divination",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Dominate Beast",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Evard's Black Tentacles",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Fabricate",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Fire Shield",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Freedom of Movement",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Giant Insect",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Grasping Vine",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Greater Invisibility",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Guardian of Faith",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Hallucinatory Terrain",
+      "classes": [
+        "bard",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Ice Storm",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Leomund's Secret Chest",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Locate Creature",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "paladin",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mordenkainen's Faithful Hound",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mordenkainen's Private Sanctum",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Otiluke's Resilient Sphere",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Phantasmal Killer",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Polymorph",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Staggering Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Stone Shape",
+      "classes": [
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Stoneskin",
+      "classes": [
+        "druid",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Wall of Fire",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Animate Objects",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Antilife Shell",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Awaken",
+      "classes": [
+        "bard",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Banishing Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Bigby's Hand",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Circle of Power",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Cloudkill",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Commune",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Commune with Nature",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Cone of Cold",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Conjure ELemental",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Conjure Volley",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Contact Other Plane",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Contagion",
+      "classes": [
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Creation",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Destructive Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Dispel Evil and Good",
+      "classes": [
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Dominate Person",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Dream",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Flame Strike",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Geas",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "paladin",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Greater Restoration",
+      "classes": [
+        "bard",
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Hallow",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Hold Monster",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Insect Plague",
+      "classes": [
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Legend Lore",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mass Cure Wounds",
+      "classes": [
+        "bard",
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mislead",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Modify Memory",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Passwall",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Planar Binding",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Raise Dead",
+      "classes": [
+        "bard",
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Rary's Telepathic Bond",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Reincarnate",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Scrying",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Seeming",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Swift Quiver",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Telekinesis",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Teleportation Circle",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Tree Stride",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Wall of Force",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Wall of Stone",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Arcane Gate",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Blade Barrier",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Chain Lightning",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Circle of Death",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Conjure Fey",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Contingency",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Create Undead",
+      "classes": [
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Disintegrate",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Drawmij's Instant Summons",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Eyebit",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Find the Path",
+      "classes": [
+        "bard",
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Flesh to Stone",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Forbiddance",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Globe of Invulnerability",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Guards and Wards",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Harm",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Heal",
+      "classes": [
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Heroes' Feast",
+      "classes": [
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Magic Jar",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mass Suggestion",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Move Earth",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Otiluke's Freezing Sphere",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Otto's Irresistible Dance",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Planar Ally",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Programmed Illusion",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Sunbeam",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Transport via Plants",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "True Seeing",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Wall of Ice",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Wall of Thorns",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Wind Walk",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Word of Recall",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    }
+  ],
+  "hard": [
+    {
+      "name": "Conjure Celestial",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Delayed Blast Fireball",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Divine Word",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Etherealness",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Finger of Death",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Fire Storm",
+      "classes": [
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Forcecage",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mirage Arcane",
+      "classes": [
+        "bard",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mordenkainen's Magnificent Mansion",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mordenkainen's Sword",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Plane Shift",
+      "classes": [
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Prismatic Spray",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Project Image",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Regenerate",
+      "classes": [
+        "bard",
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Resurrection",
+      "classes": [
+        "bard",
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Reverse Gravity",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Sequester",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Simulacrum",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Symbol",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Teleport",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Animal Shapes",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Antimagic Field",
+      "classes": [
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Antipathy/Sympathy",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Clone",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Control Weather",
+      "classes": [
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Demiplane",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Dominate Monster",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Earthquake",
+      "classes": [
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Feeblemind",
+      "classes": [
+        "bard",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Glibness",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Holy Aura",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Incendiary Cloud",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Maze",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mind Blank",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Power Word Stun",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Sunburst",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Telepathy",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Trap the Soul",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Tsunami",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Astral Projection",
+      "classes": [
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Foresight",
+      "classes": [
+        "bard",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Gate",
+      "classes": [
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Imprisonment",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Mass Heal",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Meteor Swarm",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Power Word Heal",
+      "classes": [
+        "bard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Power Word Kill",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Prismatic Wall",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Shapechange",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Storm of Vengeance",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Time Stop",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "True Polymorph",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "True Resurrection",
+      "classes": [
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Weird",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    },
+    {
+      "name": "Wish",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "",
+      "duration": "",
+      "range": ""
+    }
+  ]
+}

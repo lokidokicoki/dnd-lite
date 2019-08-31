@@ -42,10 +42,25 @@ export interface IEquipmentList {
   paladin: string[];
   priest: string[];
   monk: string[];
-  mage: string[];
+  wizard: string[];
   ranger: string[];
   rogue: string[];
   generic: string[];
   mandatory: string[];
   [key: string]: string[];
+}
+
+export interface ISpell {
+  name: string;
+  classes: string[];
+  description: string;
+  castingTIme: string;
+  duration: string;
+  range: string;
+}
+
+export interface ISpellTypes {
+  easy: ISpell[];
+  medium: ISpell[];
+  hard: ISpell[];
 }

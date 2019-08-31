@@ -60,6 +60,7 @@ export class Character implements ICharacterClass {
 
   public hitPoints: number;
   public equipment: string[];
+  public spells: any;
 
   constructor(options: any) {
     // get characterClass

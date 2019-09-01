@@ -1,15 +1,36 @@
 {
   "easy": [
     {
+      "name": "Aid",
+      "classes": [
+        "priest",
+        "paladin"
+      ],
+      "description": "Choose 3 creatures in range; increase max and current HP by 5",
+      "castingTime": "1 action",
+      "duration": "8 hours",
+      "range": "30'"
+    },
+    {
       "name": "Alarm",
       "classes": [
         "ranger",
         "wizard"
       ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "description": "Create a 20' cube that if triggered sends a mental 'ping'.",
+      "castingTime": "1 minute",
+      "duration": "8 hours",
+      "range": "30'"
+    },
+    {
+      "name": "Alter Self",
+      "classes": [
+        "wizard"
+      ],
+      "description": "Your shapeshift; 'change appearance', 'aquatic form', 'bioweapon'. Bioweapon is a Light weapon",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "self"
     },
     {
       "name": "Animal Friendship",
@@ -18,30 +39,83 @@
         "druid",
         "ranger"
       ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "description": "Convince an animal you mean it no harm",
+      "castingTime": "1 action",
+      "duration": "24 hours",
+      "range": "30'"
+    },
+    {
+      "name": "Animal Messenger",
+      "classes": [
+        "bard",
+        "druid",
+        "ranger"
+      ],
+      "description": "Cast on a tiny animal, to send a short verbal message to someone. Flying animals go further than terrestrial.",
+      "castingTime": "1 action",
+      "duration": "24 hours",
+      "range": "30'"
+    },
+    {
+      "name": "Animate Dead",
+      "classes": [
+        "priest",
+        "wizard"
+      ],
+      "description": "You animate a corpse/skeleton, and control it for 24 hours, after which it goes rogue. For each character level, gain one extra body.",
+      "castingTime": "1 minute",
+      "duration": "Instantaneous",
+      "range": "10'"
+    },
+    {
+      "name": "Arcane Lock",
+      "classes": [
+        "wizard"
+      ],
+      "description": "Lock, with a password, a door, chest etc. Much harder to break into.",
+      "castingTime": "1 action",
+      "duration": "Until dispelled",
+      "range": "Touch"
     },
     {
       "name": "Armor of Agathys",
       "classes": [
         "wizard"
       ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "description": "Spectral forst force field surrounds you. Gain 5 temporary HP. Melee attakcs against you cause 5 points of cold DMG.",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Arms of Hadar",
       "classes": [
         "wizard"
       ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "description": "Tendrils of dark energy project from you to attack your enemies doing 2D6 DMG. Save (STR) does 1/2 dMG",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10' radius"
+    },
+    {
+      "name": "Augury",
+      "classes": [
+        "priest"
+      ],
+      "description": "Cast gem-inlaid sticks/bones/runes to get an omen about an cource of action you will take inthe next 30 minutes.",
+      "castingTime": "1 minute",
+      "duration": "Instant",
+      "range": "Self"
+    },
+    {
+      "name": "Aura of Vitality",
+      "classes": [
+        "paladin"
+      ],
+      "description": "Heals creatures in radius. They gain 2D6 HP",
+      "castingTime": "1 minute",
+      "duration": "1 hour",
+      "range": "30' radius"
     },
     {
       "name": "Bane",
@@ -49,10 +123,54 @@
         "bard",
         "priest"
       ],
+      "description": "Target 3 creatures in range. On success, their ATK is minus 1D6 until the spell ends",
+      "castingTime": "1 action",
+      "duration": "1 minute",
+      "range": "30'"
+    },
+    {
+      "name": "Barkskin",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "Target skin becomes touch, lke bark. Consider it Medium Armor",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "Touch"
+    },
+    {
+      "name": "Beacon of Hope",
+      "classes": [
+        "priest"
+      ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Beast Sense",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Bestow Curse",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Bless",
@@ -61,9 +179,61 @@
         "paladin"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Blinding Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Blindness/Deafness",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Blink",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Blur",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Branding Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Burning Hands",
@@ -71,9 +241,30 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Call Lightning",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Calm Emotions",
+      "classes": [
+        "bard",
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Charm Person",
@@ -83,9 +274,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Chromatic Orb",
@@ -93,9 +284,32 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Clairvoyance",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Cloud of Daggers",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Color Spray",
@@ -103,9 +317,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Command",
@@ -114,9 +328,9 @@
         "paladin"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Compelled Duel",
@@ -124,9 +338,9 @@
         "paladin"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Comprehend Languages",
@@ -135,9 +349,72 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Conjure Animals",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Conjure Barrage",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Continual Flame",
+      "classes": [
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Cordon of Arrows",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Counterspell",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Create Food and Water",
+      "classes": [
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Create or Destroy Water",
@@ -146,9 +423,30 @@
         "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Crown of Madness",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Crusader's Mantle",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Cure Wounds",
@@ -160,9 +458,45 @@
         "ranger"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Darkness",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Darkvision",
+      "classes": [
+        "druid",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Daylight",
+      "classes": [
+        "priest",
+        "druid",
+        "paladin",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Detect Evil and Good",
@@ -171,9 +505,9 @@
         "paladin"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Detect Magic",
@@ -186,9 +520,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Detect Poison and Disease",
@@ -199,661 +533,9 @@
         "ranger"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Disguise Self",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Dissonant Whispers",
-      "classes": [
-        "bard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Divine Favor",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Ensnaring Strike",
-      "classes": [
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Entangle",
-      "classes": [
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Expeditious Retreat",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "False Life",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Faerie Fire",
-      "classes": [
-        "bard",
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Feather Fall",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Find Familiar",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Fog Cloud",
-      "classes": [
-        "druid",
-        "ranger",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Goodberry",
-      "classes": [
-        "druid",
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Grease",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Guiding Bolt",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Hail of Thorns",
-      "classes": [
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Healing Word",
-      "classes": [
-        "bard",
-        "priest",
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Hellish Rebuke ",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Heroism",
-      "classes": [
-        "bard",
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Hex",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Hunter's Mark",
-      "classes": [
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Identify",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Illusory Script",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Inflict Wounds",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Jump",
-      "classes": [
-        "druid",
-        "ranger",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Longstrider",
-      "classes": [
-        "bard",
-        "druid",
-        "ranger",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Mage Armor",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Magic Missle",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Protection from Evil and Good",
-      "classes": [
-        "priest",
-        "paladin",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Purify Food and Drink",
-      "classes": [
-        "priest",
-        "druid",
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Ray of Sickness",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Searing Smite",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Sanctuary",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Shield",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Shield of Faith",
-      "classes": [
-        "priest",
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Silent Image",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Sleep",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Speak with Animals",
-      "classes": [
-        "bard",
-        "druid",
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Tasha's Hideous Laughter",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Tensor's Floating Disk",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Thunderous Smite",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Thunderwave",
-      "classes": [
-        "bard",
-        "druid",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Unseen Servant",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Witch Bolt",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Wrathful Smite",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Aid",
-      "classes": [
-        "priest",
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Alter Self",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Animal Messenger",
-      "classes": [
-        "bard",
-        "druid",
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Arcane Lock",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Augury",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Barkskin",
-      "classes": [
-        "druid",
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Beast Sense",
-      "classes": [
-        "druid",
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Blindness/Deafness",
-      "classes": [
-        "bard",
-        "priest",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Blur",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Branding Smite",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Calm Emotions",
-      "classes": [
-        "bard",
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Cloud of Daggers",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Continual Flame",
-      "classes": [
-        "priest",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Cordon of Arrows",
-      "classes": [
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Crown of Madness",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Darkness",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Darkvision",
-      "classes": [
-        "druid",
-        "ranger",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Detect Thoughts",
@@ -862,9 +544,64 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Disguise Self",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Dispel Magic",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "paladin",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Dissonant Whispers",
+      "classes": [
+        "bard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Divine Favor",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Elemental Weapon",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Enhance Ability",
@@ -875,9 +612,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Enlarge/Reduce",
@@ -885,9 +622,29 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Ensnaring Strike",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Entangle",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Enthrall",
@@ -896,9 +653,85 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Expeditious Retreat",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Faerie Fire",
+      "classes": [
+        "bard",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "False Life",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Fear",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Feather Fall",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Feign Death",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Find Familiar",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Find Steed",
@@ -906,9 +739,9 @@
         "paladin"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Find Traps",
@@ -918,9 +751,19 @@
         "ranger"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Fireball",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Flame Blade",
@@ -928,9 +771,9 @@
         "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Flaming Sphere",
@@ -939,9 +782,137 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Fly",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Fog Cloud",
+      "classes": [
+        "druid",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Gaseous Form",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Gentle Repose",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Glyph of Warding",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Goodberry",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Grease",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Guiding Bolt",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Gust of Wind",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Hail of Thorns",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Haste",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Healing Word",
+      "classes": [
+        "bard",
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Heat Metal",
@@ -950,9 +921,40 @@
         "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Hellish Rebuke ",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Heroism",
+      "classes": [
+        "bard",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Hex",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Hold Person",
@@ -962,30 +964,72 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
-      "name": "Gentle Repose",
+      "name": "Hunger of Hadar",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Hunter's Mark",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Hypnotic Pattern",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Identify",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Illusory Script",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Inflict Wounds",
       "classes": [
         "priest"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Gust of Wind",
-      "classes": [
-        "druid",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Invisibility",
@@ -994,9 +1038,21 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Jump",
+      "classes": [
+        "druid",
+        "ranger",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Knock",
@@ -1005,9 +1061,20 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Leomund's Tiny Hut",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Lesser Restoration",
@@ -1019,9 +1086,9 @@
         "ranger"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Levitate",
@@ -1029,9 +1096,29 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Lightning Arrow",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Lightning Bolt",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Locate Animals or Plants",
@@ -1041,9 +1128,9 @@
         "ranger"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Locate Object",
@@ -1056,566 +1143,32 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
-      "name": "Magic Mouth",
+      "name": "Longstrider",
       "classes": [
         "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Magic Weapon",
-      "classes": [
-        "paladin",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Melf's Acid Arrow",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Mirror Image",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Misty Step",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Moonbeam",
-      "classes": [
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Nystul's Magic Aura",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Pass without Trace",
-      "classes": [
         "druid",
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Phantasmal Force",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Prayer of Healing",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Protection of Poison",
-      "classes": [
-        "priest",
-        "druid",
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Ray of Enfeeblement",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Rope Trick",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Scorching Ray",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "See Invisibility",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Shatter",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Silence",
-      "classes": [
-        "bard",
-        "priest",
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Spider Climb",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Spike Growth",
-      "classes": [
-        "druid",
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Spiritual Weapon",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Suggestion",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Warding Bond",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Web",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Zone of Truth",
-      "classes": [
-        "bard",
-        "priest",
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Animate Dead",
-      "classes": [
-        "priest",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Aura of Vitality",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Beacon of Hope",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Bestow Curse",
-      "classes": [
-        "bard",
-        "priest",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Blinding Smite",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Blink",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Call Lightning",
-      "classes": [
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Clairvoyance",
-      "classes": [
-        "bard",
-        "priest",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Conjure Animals",
-      "classes": [
-        "druid",
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Conjure Barrage",
-      "classes": [
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Counterspell",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Create Food and Water",
-      "classes": [
-        "priest",
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Crusader's Mantle",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Daylight",
-      "classes": [
-        "priest",
-        "druid",
-        "paladin",
         "ranger",
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
-      "name": "Dispel Magic",
-      "classes": [
-        "bard",
-        "priest",
-        "druid",
-        "paladin",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Elemental Weapon",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Fear",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Feign Death",
-      "classes": [
-        "bard",
-        "priest",
-        "druid",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Fireball",
+      "name": "Mage Armor",
       "classes": [
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Fly",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Gaseous Form",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Glyph of Warding",
-      "classes": [
-        "bard",
-        "priest",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Haste",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Hunger of Hadar",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Hypnotic Pattern",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Leomund's Tiny Hut",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Lightning Arrow",
-      "classes": [
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Lightning Bolt",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Magic Circle",
@@ -1625,9 +1178,41 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Magic Missle",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Magic Mouth",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Magic Weapon",
+      "classes": [
+        "paladin",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Major Image",
@@ -1636,9 +1221,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Mass Healing Word",
@@ -1646,9 +1231,9 @@
         "priest"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Meld Into Stone",
@@ -1657,9 +1242,49 @@
         "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Melf's Acid Arrow",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Mirror Image",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Misty Step",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Moonbeam",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Nondetection",
@@ -1669,9 +1294,41 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Nystul's Magic Aura",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Pass without Trace",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Phantasmal Force",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Phantom Steed",
@@ -1679,9 +1336,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Plant Growth",
@@ -1691,9 +1348,19 @@
         "ranger"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Prayer of Healing",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Protection from Energy",
@@ -1704,9 +1371,65 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Protection from Evil and Good",
+      "classes": [
+        "priest",
+        "paladin",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Protection of Poison",
+      "classes": [
+        "priest",
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Purify Food and Drink",
+      "classes": [
+        "priest",
+        "druid",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Ray of Enfeeblement",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Ray of Sickness",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Remove Curse",
@@ -1716,9 +1439,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Revivify",
@@ -1727,9 +1450,60 @@
         "paladin"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Rope Trick",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Sanctuary",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Scorching Ray",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Searing Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "See Invisibility",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Sending",
@@ -1739,9 +1513,75 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Shatter",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Shield",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Shield of Faith",
+      "classes": [
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Silence",
+      "classes": [
+        "bard",
+        "priest",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Silent Image",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Sleep",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Sleet Storm",
@@ -1750,9 +1590,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Slow",
@@ -1760,9 +1600,21 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Speak with Animals",
+      "classes": [
+        "bard",
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Speak with Dead",
@@ -1771,9 +1623,9 @@
         "priest"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Speak with Plants",
@@ -1783,9 +1635,30 @@
         "ranger"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Spider Climb",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Spike Growth",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Spirit Guardians",
@@ -1793,9 +1666,19 @@
         "priest"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Spiritual Weapon",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Stinking Cloud",
@@ -1804,9 +1687,63 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Suggestion",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Tasha's Hideous Laughter",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Tensor's Floating Disk",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Thunderous Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Thunderwave",
+      "classes": [
+        "bard",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Tongues",
@@ -1816,9 +1753,20 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Unseen Servant",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Vampiric Touch",
@@ -1826,9 +1774,19 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Warding Bond",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Water Breathing",
@@ -1838,9 +1796,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Water Walk",
@@ -1851,9 +1809,19 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Web",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Wind Wall",
@@ -1862,31 +1830,64 @@
         "ranger"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Witch Bolt",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Wrathful Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Zone of Truth",
+      "classes": [
+        "bard",
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     }
   ],
   "medium": [
     {
-      "name": "Aura of Life",
+      "name": "Animate Objects",
       "classes": [
-        "paladin"
+        "bard",
+        "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
-      "name": "Aura of Purify",
+      "name": "Antilife Shell",
       "classes": [
-        "paladin"
+        "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Arcane Eye",
@@ -1894,9 +1895,60 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Arcane Gate",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Aura of Life",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Aura of Purify",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Awaken",
+      "classes": [
+        "bard",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Banishing Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Banishment",
@@ -1906,9 +1958,29 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Bigby's Hand",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Blade Barrier",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Blight",
@@ -1917,9 +1989,70 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Chain Lightning",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Circle of Death",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Circle of Power",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Cloudkill",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Commune",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Commune with Nature",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Compulsion",
@@ -1927,9 +2060,19 @@
         "bard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Cone of Cold",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Confusion",
@@ -1939,9 +2082,31 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Conjure ELemental",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Conjure Fey",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Conjure Minor Elementals",
@@ -1950,9 +2115,19 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Conjure Volley",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Conjure Woodland Beings",
@@ -1961,9 +2136,40 @@
         "ranger"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Contact Other Plane",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Contagion",
+      "classes": [
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Contingency",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Control Water",
@@ -1972,9 +2178,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Control Weather",
@@ -1982,9 +2188,30 @@
         "priest"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Create Undead",
+      "classes": [
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Creation",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Death Ward",
@@ -1992,9 +2219,19 @@
         "priest"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Destructive Smite",
+      "classes": [
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Dimension Door",
@@ -2003,9 +2240,30 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Disintegrate",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Dispel Evil and Good",
+      "classes": [
+        "priest",
+        "paladin"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Divination",
@@ -2013,9 +2271,9 @@
         "priest"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Dominate Beast",
@@ -2024,9 +2282,41 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Dominate Person",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Drawmij's Instant Summons",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Dream",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Evard's Black Tentacles",
@@ -2034,9 +2324,20 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Eyebit",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Fabricate",
@@ -2044,9 +2345,21 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Find the Path",
+      "classes": [
+        "bard",
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Fire Shield",
@@ -2054,9 +2367,39 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Flame Strike",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Flesh to Stone",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Forbiddance",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Freedom of Movement",
@@ -2067,9 +2410,23 @@
         "ranger"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Geas",
+      "classes": [
+        "bard",
+        "priest",
+        "druid",
+        "paladin",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Giant Insect",
@@ -2077,9 +2434,19 @@
         "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Globe of Invulnerability",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Grasping Vine",
@@ -2088,9 +2455,9 @@
         "ranger"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Greater Invisibility",
@@ -2099,9 +2466,21 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Greater Restoration",
+      "classes": [
+        "bard",
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Guardian of Faith",
@@ -2109,9 +2488,30 @@
         "priest"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Guards and Wards",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Hallow",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Hallucinatory Terrain",
@@ -2121,9 +2521,52 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Harm",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Heal",
+      "classes": [
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Heroes' Feast",
+      "classes": [
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Hold Monster",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Ice Storm",
@@ -2132,9 +2575,33 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Insect Plague",
+      "classes": [
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Legend Lore",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Leomund's Secret Chest",
@@ -2142,9 +2609,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Locate Creature",
@@ -2157,384 +2624,19 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
-      "name": "Mordenkainen's Faithful Hound",
+      "name": "Magic Jar",
       "classes": [
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Mordenkainen's Private Sanctum",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Otiluke's Resilient Sphere",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Phantasmal Killer",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Polymorph",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Staggering Smite",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Stone Shape",
-      "classes": [
-        "priest",
-        "druid",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Stoneskin",
-      "classes": [
-        "druid",
-        "ranger",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Wall of Fire",
-      "classes": [
-        "druid",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Animate Objects",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Antilife Shell",
-      "classes": [
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Awaken",
-      "classes": [
-        "bard",
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Banishing Smite",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Bigby's Hand",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Circle of Power",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Cloudkill",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Commune",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Commune with Nature",
-      "classes": [
-        "druid",
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Cone of Cold",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Conjure ELemental",
-      "classes": [
-        "druid",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Conjure Volley",
-      "classes": [
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Contact Other Plane",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Contagion",
-      "classes": [
-        "priest",
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Creation",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Destructive Smite",
-      "classes": [
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Dispel Evil and Good",
-      "classes": [
-        "priest",
-        "paladin"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Dominate Person",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Dream",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Flame Strike",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Geas",
-      "classes": [
-        "bard",
-        "priest",
-        "druid",
-        "paladin",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Greater Restoration",
-      "classes": [
-        "bard",
-        "priest",
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Hallow",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Hold Monster",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Insect Plague",
-      "classes": [
-        "priest",
-        "druid",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Legend Lore",
-      "classes": [
-        "bard",
-        "priest",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Mass Cure Wounds",
@@ -2543,9 +2645,20 @@
         "priest"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Mass Suggestion",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Mislead",
@@ -2554,9 +2667,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Modify Memory",
@@ -2565,9 +2678,71 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Mordenkainen's Faithful Hound",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Mordenkainen's Private Sanctum",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Move Earth",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Otiluke's Freezing Sphere",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Otiluke's Resilient Sphere",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Otto's Irresistible Dance",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Passwall",
@@ -2575,9 +2750,29 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Phantasmal Killer",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Planar Ally",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Planar Binding",
@@ -2588,9 +2783,31 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Polymorph",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Programmed Illusion",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Raise Dead",
@@ -2600,9 +2817,9 @@
         "paladin"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Rary's Telepathic Bond",
@@ -2610,9 +2827,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Reincarnate",
@@ -2620,9 +2837,9 @@
         "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Scrying",
@@ -2633,9 +2850,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Seeming",
@@ -2644,334 +2861,43 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
-      "name": "Swift Quiver",
+      "name": "Staggering Smite",
       "classes": [
-        "ranger"
+        "paladin"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
-      "name": "Telekinesis",
+      "name": "Stone Shape",
       "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Teleportation Circle",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Tree Stride",
-      "classes": [
-        "druid",
-        "ranger"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Wall of Force",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Wall of Stone",
-      "classes": [
+        "priest",
         "druid",
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
-      "name": "Arcane Gate",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Blade Barrier",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Chain Lightning",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Circle of Death",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Conjure Fey",
+      "name": "Stoneskin",
       "classes": [
         "druid",
+        "ranger",
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Contingency",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Create Undead",
-      "classes": [
-        "priest",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Disintegrate",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Drawmij's Instant Summons",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Eyebit",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Find the Path",
-      "classes": [
-        "bard",
-        "priest",
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Flesh to Stone",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Forbiddance",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Globe of Invulnerability",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Guards and Wards",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Harm",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Heal",
-      "classes": [
-        "priest",
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Heroes' Feast",
-      "classes": [
-        "priest",
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Magic Jar",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Mass Suggestion",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Move Earth",
-      "classes": [
-        "druid",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Otiluke's Freezing Sphere",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Otto's Irresistible Dance",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Planar Ally",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Programmed Illusion",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Sunbeam",
@@ -2980,9 +2906,40 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Swift Quiver",
+      "classes": [
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Telekinesis",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Teleportation Circle",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Transport via Plants",
@@ -2990,9 +2947,20 @@
         "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Tree Stride",
+      "classes": [
+        "druid",
+        "ranger"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "True Seeing",
@@ -3002,9 +2970,30 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Wall of Fire",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Wall of Force",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Wall of Ice",
@@ -3012,9 +3001,20 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Wall of Stone",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Wall of Thorns",
@@ -3022,9 +3022,9 @@
         "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Wind Walk",
@@ -3032,9 +3032,9 @@
         "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Word of Recall",
@@ -3042,240 +3042,21 @@
         "priest"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     }
   ],
   "hard": [
-    {
-      "name": "Conjure Celestial",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Delayed Blast Fireball",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Divine Word",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Etherealness",
-      "classes": [
-        "bard",
-        "priest",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Finger of Death",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Fire Storm",
-      "classes": [
-        "priest",
-        "druid",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Forcecage",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Mirage Arcane",
-      "classes": [
-        "bard",
-        "druid",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Mordenkainen's Magnificent Mansion",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Mordenkainen's Sword",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Plane Shift",
-      "classes": [
-        "priest",
-        "druid",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Prismatic Spray",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Project Image",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Regenerate",
-      "classes": [
-        "bard",
-        "priest",
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Resurrection",
-      "classes": [
-        "bard",
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Reverse Gravity",
-      "classes": [
-        "druid",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Sequester",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Simulacrum",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Symbol",
-      "classes": [
-        "bard",
-        "priest",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Teleport",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
     {
       "name": "Animal Shapes",
       "classes": [
         "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Antimagic Field",
@@ -3284,9 +3065,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Antipathy/Sympathy",
@@ -3295,9 +3076,20 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Astral Projection",
+      "classes": [
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Clone",
@@ -3305,9 +3097,19 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Conjure Celestial",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Control Weather",
@@ -3317,9 +3119,19 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Delayed Blast Fireball",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Demiplane",
@@ -3327,9 +3139,19 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Divine Word",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Dominate Monster",
@@ -3338,9 +3160,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Earthquake",
@@ -3350,9 +3172,21 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Etherealness",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Feeblemind",
@@ -3362,124 +3196,42 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
-      "name": "Glibness",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Holy Aura",
-      "classes": [
-        "priest"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Incendiary Cloud",
+      "name": "Finger of Death",
       "classes": [
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
-      "name": "Maze",
+      "name": "Fire Storm",
       "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Mind Blank",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Power Word Stun",
-      "classes": [
-        "bard",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Sunburst",
-      "classes": [
+        "priest",
         "druid",
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
-      "name": "Telepathy",
+      "name": "Forcecage",
       "classes": [
+        "bard",
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Trap the Soul",
-      "classes": [
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Tsunami",
-      "classes": [
-        "druid"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
-    },
-    {
-      "name": "Astral Projection",
-      "classes": [
-        "priest",
-        "wizard"
-      ],
-      "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Foresight",
@@ -3489,9 +3241,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Gate",
@@ -3500,9 +3252,30 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Glibness",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Holy Aura",
+      "classes": [
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Imprisonment",
@@ -3510,9 +3283,19 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Incendiary Cloud",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Mass Heal",
@@ -3520,9 +3303,19 @@
         "priest"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Maze",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Meteor Swarm",
@@ -3530,9 +3323,66 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Mind Blank",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Mirage Arcane",
+      "classes": [
+        "bard",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Mordenkainen's Magnificent Mansion",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Mordenkainen's Sword",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Plane Shift",
+      "classes": [
+        "priest",
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Power Word Heal",
@@ -3540,9 +3390,9 @@
         "bard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Power Word Kill",
@@ -3551,9 +3401,30 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Power Word Stun",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Prismatic Spray",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Prismatic Wall",
@@ -3561,9 +3432,64 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Project Image",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Regenerate",
+      "classes": [
+        "bard",
+        "priest",
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Resurrection",
+      "classes": [
+        "bard",
+        "priest"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Reverse Gravity",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Sequester",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Shapechange",
@@ -3572,9 +3498,19 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Simulacrum",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Storm of Vengeance",
@@ -3582,9 +3518,53 @@
         "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Sunburst",
+      "classes": [
+        "druid",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Symbol",
+      "classes": [
+        "bard",
+        "priest",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Telepathy",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Teleport",
+      "classes": [
+        "bard",
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Time Stop",
@@ -3592,9 +3572,19 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Trap the Soul",
+      "classes": [
+        "wizard"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "True Polymorph",
@@ -3603,9 +3593,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "True Resurrection",
@@ -3614,9 +3604,19 @@
         "druid"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
+    },
+    {
+      "name": "Tsunami",
+      "classes": [
+        "druid"
+      ],
+      "description": "",
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Weird",
@@ -3624,9 +3624,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     },
     {
       "name": "Wish",
@@ -3634,9 +3634,9 @@
         "wizard"
       ],
       "description": "",
-      "castingTime": "",
-      "duration": "",
-      "range": ""
+      "castingTime": "1 action",
+      "duration": "1 hour",
+      "range": "10'"
     }
   ]
 }

@@ -4,11 +4,12 @@ import * as inquirer from 'inquirer';
 import * as os from 'os';
 import * as path from 'path';
 import { Character } from './character';
-import { IArmorTypes, ICharacterClass, IEquipmentList, IWeaponTypes } from './types';
+import { IArmorTypes, ICharacterClass, IEquipmentList, IWeaponTypes, ISpellTypes } from './types';
 
 const BASE_AGE = 18;
 const rawClasses = fs.readJsonSync(path.join(process.cwd(), `classes.json`));
 const rawWeapons = fs.readJsonSync(path.join(process.cwd(), `weapons.json`));
+const spellList: ISpellTypes = fs.readJsonSync(path.join(process.cwd(), `spells.json`));
 const races = fs.readJsonSync(path.join(process.cwd(), `races.json`));
 const armorTypes: IArmorTypes = fs.readJsonSync(path.join(process.cwd(), `armor.json`));
 const equipmentList: IEquipmentList = fs.readJsonSync(path.join(process.cwd(), `equipment.json`));
@@ -183,6 +184,9 @@ function canWearArmor(characterClass: ICharacterClass) {
   return characterClass.kickers.armor !== 0;
 }
 
+function canUseMagic(characterClass: ICharacterClass) {
+  return characterClass.kickers.allowedSpells.length > 0;
+}
 /**
  * Build out the character.
  * @param answers cli answers
@@ -237,6 +241,50 @@ async function processAnswers(answers: inquirer.Answers) {
   character.equipment.push(cash);
   character.equipment.push(rations);
 
+  // get all spells for this class
+  if (character.kickers.allowedSpells.length > 0) {
+    const spellSlots = character.kickers.allowedSpells[character.level - 1];
+    const filteredSpells: ISpellTypes = {
+      easy: [],
+      hard: [],
+      medium: []
+    };
+
+    const allocatedSpells: ISpellTypes = {
+      easy: [],
+      hard: [],
+      medium: []
+    };
+
+    filteredSpells.easy = spellList.easy.filter((item) => {
+      return item.classes.includes(character.type.toLowerCase());
+    });
+    filteredSpells.medium = spellList.medium.filter((item) => {
+      return item.classes.includes(character.type.toLowerCase());
+    });
+    filteredSpells.hard = spellList.hard.filter((item) => {
+      return item.classes.includes(character.type.toLowerCase());
+    });
+
+    console.log(spellSlots);
+
+    for (let i = 0; i < spellSlots.easy; i++) {
+      allocatedSpells.easy.push(filteredSpells.easy[getRandomInt(0, filteredSpells.easy.length - 1)]);
+    }
+
+    for (let i = 0; i < spellSlots.medium; i++) {
+      allocatedSpells.medium.push(filteredSpells.medium[getRandomInt(0, filteredSpells.medium.length - 1)]);
+    }
+
+    for (let i = 0; i < spellSlots.hard; i++) {
+      allocatedSpells.hard.push(filteredSpells.hard[getRandomInt(0, filteredSpells.hard.length - 1)]);
+    }
+
+    character.spells = allocatedSpells;
+
+    await fs.writeJson(`dump-spellbook.json`, filteredSpells, { spaces: 2 });
+  }
+
   // dump raw character values
   await fs.writeJson(`dump.json`, character, { spaces: 2 });
 
@@ -278,6 +326,15 @@ export async function main(options: CommanderStatic) {
       message: 'Race:',
       name: 'race',
       type: 'list'
+    },
+    {
+      default: 'Other',
+      message: 'Custom race:',
+      name: 'race',
+      type: 'input',
+      when: (current: inquirer.Answers) => {
+        return current.race === 'Other';
+      }
     },
     {
       choices: [`Good`, `Bad`, `Indifferent`],
@@ -405,6 +462,14 @@ export async function main(options: CommanderStatic) {
       type: 'confirm',
       when: (current: inquirer.Answers) => {
         return canWearArmor(current.class);
+      }
+    },
+    {
+      message: 'Would you like a default set of spells? You can always change this in game.',
+      name: 'gimmeSpells',
+      type: 'confirm',
+      when: (current: inquirer.Answers) => {
+        return canUseMagic(current.class);
       }
     }
 

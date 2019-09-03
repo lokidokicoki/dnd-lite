@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio';
 import { getSkillBonus } from './lib';
-import { ICharacterClass } from './types';
+import { ICharacterClass, ISpellTypes } from './types';
 
 export const HP_MULTIPLIER = 2;
 
@@ -60,7 +60,7 @@ export class Character implements ICharacterClass {
 
   public hitPoints: number;
   public equipment: string[];
-  public spells: any;
+  public spells: ISpellTypes;
 
   constructor(options: any) {
     // get characterClass
